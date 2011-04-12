@@ -1,0 +1,20 @@
+index:
+ credentials: Inventario
+
+show:
+ credentials: Inventario
+
+new:
+ credentials: Inventario
+
+create:
+ credentials: Inventario
+
+edit:
+ credentials: Inventario
+
+update:
+ credentials: Inventario
+
+delete:
+ credentials: Inventario

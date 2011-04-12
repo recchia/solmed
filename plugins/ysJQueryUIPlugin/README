@@ -1,0 +1,1478 @@
+ysJQueryUIPlugin
+================
+
+The ysJQueryUIPlugin provides support for jQuery User Interface
+in your app views; Importing the jquery.ui library
+facilitating abstractions for low-level interaction and animation,
+advanced effects and high-level, themeable widgets, built on top of the jQuery
+JavaScript Library, that you can use to build highly interactive web applications.
+Everything from PHP code (Symfony helpers).
+jQuery and Symfony write less, do more.
+
+*What's new in ysJQueryUIPlugin*
+--------------------------------
+
+  * Support to FG-MENU: with the new helper ysJQueryUIMenu [Here](http://www.filamentgroup.com/examples/menus/flat.php "Example")
+  * Now you can define the widget default options from the app.yml file.
+  * Now you can load the UI.Layout options from a yaml file.
+  * ysJQueryRevolutionsPlugins 1.0.6 dependence.
+  * Some Bugs Fixed (styles and javascript code)
+  * And more.... See the jqueryui_demo module.
+  
+*Dependencies*
+--------------
+
+  * ysJQueryRevolutionsPlugins [Documentation](http://www.symfony-project.org/plugins/ysJQueryRevolutionsPlugin "ysJQueryRevolutionsPlugins")
+
+*Available Local Themes*
+------------------------
+
+  * ui-lightness,blitzer,smoothness,cupertino
+  
+  **Tip:**: If you use only one, delete others.
+  
+*Installation*
+--------------
+
+  * Install the plugin (from http://plugins.symfony-project.com)
+
+		$ symfony plugin:install http://www.symfony-project.org/plugins/ysJQueryUIPlugin
+
+  * Install the plugin (from .tgz file)<br>
+	Download the .tgz from <br>
+	http://www.symfony-project.org/plugins/ysJQueryUIPlugin<br>
+	execute command:<br>
+
+		php symfony plugin:install path/to/ysJQueryUIPlugin-.x.x.x.tgz
+
+  * Enable modules in your `settings.yml` (optional for demos)
+
+		[yml]
+		all:
+		 .settings:
+		   enabled_modules:      [default, jqueryui_demo]
+
+  * Enable the plugin if necessary by editing config/ProjectConfiguration.class.php:
+
+		[php]
+		$this->enablePlugins('ysJQueryUIPlugin');
+
+  * Publish plugin assets (Very Important for version < 0.0.8):
+
+		php symfony plugin:publish-assets
+
+  * Clear you cache
+
+		symfony cc
+
+  * See the app.yml to change where you load the library jquery.UI and themes (Optional).
+    For localhost configuration is only available [ui-lightness,blitzer,smoothness,cupertino] themes.
+    You can add or delete themes.
+
+		[yml]
+		  all:
+			.ys_jquery_ui_plugins:
+
+			  ###Core configuration---------------------------------------------------------
+			  ### For load jquery.ui from ajax.googleapis.com:
+			  #ys_jquery_ui_web_dir:   http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1    #default /ysJqueryUIPlugin
+			  #ys_jquery_ui_theme_dir: /themes                                                #default /css/themes
+			  #ys_jquery_ui_js_dir:    ''                                                     #default /js/jquery/ui
+			  ##ys_jquery_ui_theme:     blitzer                                               #default ui-lightness
+			  #ys_jquery_ui_i18n_dir:  /i18n                                                  #default /i18n
+			  #ys_jquery_ui_theme_rolller:  http://jqueryui.com/themeroller/themeswitchertool/
+
+			  ###jquery.ui.core
+			  #ys_jquery_ui_core_js:   [ jquery-ui.min.js ]
+			  #ys_jquery_ui_core_css:  [ ui.all.css ]
+
+
+			  ### For load from jquery.ui localhost
+			  ys_jquery_ui_web_dir:         /ysJQueryUIPlugin    #default /ysJqueryUIPlugin
+			  ys_jquery_ui_theme_dir:       /css/themes          #default /css/themes
+			  ys_jquery_ui_js_dir:          /js/jquery/ui        #default /js/jquery/ui
+			  ys_jquery_ui_theme:           redmond              #default ui-lightness
+			  ys_jquery_ui_i18n_dir:        i18n                 #default /i18n
+			  ys_jquery_ui_theme_rolller:   /ysJQueryUIPlugin/js/jquery/themeswitchertool.js
+
+			  ###jquery.ui.core
+			  ys_jquery_ui_core_js:         [ui.core.js]
+			  ys_jquery_ui_core_css:        [jquery-ui-1.7.2.custom.css]
+
+
+
+
+<br><br>
+Helpers
+-------
+
+  * **ysJQueryRevolutionsHelper** Add this helper from ysJQueryRervoltionsPlugin (needed to work). Or **ysJQueryDollarRevolutionsHelper**
+
+  * **ysJQueryUICoreHelper** Add this helper to create panels, buttons, links, icons with jqueryUI Styles.
+
+  * **ysJQueryUIAccordionHelper** Add this helper to create jQueryUI accordions widgets. See the module: jqueryui_demo/accordion
+
+  * **ysJQueryUIDatepickerHelper** Add this helper to create jQueryUI datepickers widgets. See the module: jqueryui_demo/datepicker
+
+  * **ysJQueryUIDialogHelper** Add this helper to create jQueryUI dialog widgets. See the module: jqueryui_demo/dialog
+
+  * **ysJQueryUIDraggableHelper** Add this helper to add jQueryUI draggable support. See the module: jqueryui_demo/draggable
+
+  * **ysJQueryUIDroppableHelper** Add this helper to add jQueryUI droppable support. See the module: jqueryui_demo/droppable
+
+  * **ysJQueryUIEffectsHelper** Add this helper to add jQueryUI effects support. See the module: jqueryui_demo/effects
+
+  * **ysJQueryUIProgressbarHelper** Add this helper to create jQueryUI progressbar widgets. See the module: jqueryui_demo/progressbar
+
+  * **ysJQueryUIResizableHelper** Add this helper to add jQueryUI resizable support. See the module: jqueryui_demo/resizable
+
+  * **ysJQueryUISelectableHelper** Add this helper to add jQueryUI selectable support. See the module: jqueryui_demo/selectable
+
+  * **ysJQueryUISliderHelper** Add this helper to create jQueryUI slider widgets. See the module: jqueryui_demo/slider
+
+  * **ysJQueryUISortableHelper** Add this helper to add jQueryUI sortable support. See the module: jqueryui_demo/sortable
+
+  * **ysJQueryUITabsHelper** Add this helper to create jQueryUI tabs widgets. See the module: jqueryui_demo/tabs
+
+  * **ysJQueryUILayoutHelper** Add this helper to add jQueryUI Layout support.
+    Change your layout.php by layout.php that is within the jqueryui_demo module to see how it works.
+	
+  * **ysJQueryUIMenuHelper** Add this helper to create jQueryUI fg-menu widgets. See the module: jqueryui_demo/menu
+
+
+  **IMPORTANT**: If you use these helpers very often is advisable to add in the
+	settings.yml
+
+		[yml]
+		all:
+		  .settings:
+		    standard_helpers:       [Partial, Cache, Form, Javascript, ysJQueryRevolutions, ... , ysJQueryUICoreHelper]
+
+<br><br>
+*How To*
+--------
+
+For _*_init_, _*_create_ and _*_suport_to_ helpers:
+
+Always the 1st argument is the jquery selector,
+the 2nd is the array configuration (optional),
+and the 3rd is html properties (optional)
+
+**Note**: You can define a listener in the configuration array.
+The listener must have the 'selector' and ('event' or 'oneEvent') indexes.
+You can add a behavior 'before' and 'after' executing the event:
+
+
+	[php]
+	array(
+	'listener' => array(
+	  'selector' => '#jQuerySelector',
+	  //'event' => 'click',    // To create the widget each time you run the event
+      'oneEvent' => 'click',   // To create the widget only once you run the event
+	  'after' => like_function("alert('After function')"),
+	  'before' => like_function("alert('Before function')"),
+	))
+
+**Important**: 'oneEvent' takes precedence over 'event' option.
+
+<br><br>
+**WIDGETS:**
+
+  * **Accordion**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions')  ?>
+		<?php use_helper('ysJQueryUIAccordion')  ?>
+		<?php ui_add_effects_support('bounce')   //   support for bounce effect ?>
+
+		<?php ui_accordion_init(
+			  'accordionId',
+			  array(
+			    'animated'   => 'bounceslide', //  <= animation requires bounce effect
+			    'icons'      => array(
+				  'header' => 'ui-icon-plus' ,
+				  'headerSelected' => 'ui-icon-minus'),
+			    'navigation' => false),
+			  'class="myCustomClass" style=".myCustomStyle"') ?>
+
+			<?php ui_accordion_init_section('Section 1', 'id="section1"') ?>
+				<p> Content 1 </p>
+			<?php ui_accordion_end_section() ?>
+
+			<?php ui_accordion_init_section('Section 2', 'id="section2"') ?>
+				<p> Content 2 </p>
+			<?php ui_accordion_end_section() ?>
+
+		<?php ui_accordion_end() ?>
+
+
+	<br><br>
+  * **Datepicker**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions')   ?>
+		<?php use_helper('ysJQueryUIDatepicker')  ?>
+
+		<?php ui_datepicker_create(
+			  'datepickerId',
+			  array(
+				'showOn'     => 'button',
+				'buttonText' => 'Date',
+				'showMonthAfterYear' => false,
+				'i18n' => 'es'),
+			  'class="myCustomClass" style=".myCustomStyle"') ?>
+
+		<?php ui_datepicker_create(
+			  'anotherDatepickerId',
+			  array(
+				'inLine' => true)) // <= in-line datepicker ?>
+
+	You can use the helper **ui_datepicker_set_defaults()**
+	to add default configuration to the datepicker.The array argument
+	is the default configuration. If you dont pass the argument the helper
+	look for the node 'ys_jquery_ui_datepicker_defaults' in the app.yml file
+
+		[php]
+		<?php echo ui_datepicker_set_defaults(
+				   array(
+				     'changeMonth' => true,
+					 'changeYear' => true,
+					 'showMonthAfterYear' => false)) ?>
+
+	...
+
+		[yml]
+		all:
+		  .ys_jquery_ui_plugins:
+		    ys_jquery_ui_datepicker_defaults:
+			  changeMonth: true
+			  changeYear: true
+			  showMonthAfterYear: false
+
+	**Note:** A bug in datepicker widgets is the z-index, sometimes not displayed.
+		  Solve it the following way:
+
+		[css]
+		<style type="text/css">
+			.ui-datepicker { z-index: 2000; } /* or more */
+		</style>
+
+	<br><br>
+  * **Dialog**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions')  ?>
+		<?php use_helper('ysJQueryUIDialog')     ?>
+
+		<?php ui_dialog_init(
+				'dialogId' ,
+				array(
+				  'title' => 'Lorem ipsum',
+				  'modal' => true,
+				  'buttons' => array('Close' => like_function(ui_dialog_close('this'))),
+				  'beforeclose' => like_function("alert('Before Close Dialog');")),
+				'class="myCustomClass" style=".myCustomStyle"') ?>
+
+			  <p align="justify">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+				nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+				reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+				pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+				culpa qui officia deserunt mollit anim id est laborum
+			  </p>
+
+		<?php ui_dialog_end() ?>
+
+	<br><br>
+  * **Progressbar**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions')  			?>
+		<?php use_stylesheet('/ysJqueryUIPlugin/demos.css') ?>
+
+		<?php ui_progressbar_create(
+			  'progressbarId' ,
+			  array(
+				'value' => 80 ,
+			    'change' => like_function("alert('Change Succesful')")),
+			  'style="height:5px;width:50%"') ?>
+
+	You can add animiation progress with the *ui_progressbar_init_animation_now()* or
+	*ui_progressbar_animate()* helpers
+
+		[php]
+		<?php echo ui_progressbar_init_animation_now('#progressbarId' , 20) ?>
+		// The 2nd argument is the duration
+
+		//ui_progressbar_animate axample:
+		<?php  ui_progressbar_create(
+			   'anotherProgressbarId' ,
+			   array(
+			     'listener' => array(
+				   'selector' => '#btnBarListener',
+				   'event' => 'click',
+				 'before' => like_function(ui_progressbar_animate('#anotherProgressbarId' , 20))),
+				 'value' => 80 ,
+				 'change' => like_function("alert('Change Succesful')"))) ?>
+
+		<input value="Create Progressbar" type="button" id="btnBarListener" />
+
+	<br><br>
+  * **Slider**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions')  ?>
+		<?php use_helper('ysJQueryUISlider')     ?>
+
+		<?php ui_slider_create(
+			  'sliderId',
+			  array(
+				'value'  => 50,
+				'change' => like_function('alert("Change Successful");')));  ?>
+
+	You can add a value or multiple values and set the max and min value:
+
+		[php]
+		<?php ui_slider_create(
+              'anotherSliderId',
+              array(
+			    'max' => 80,
+			    'min' => 15,
+			    'values' => array(15,20,80)));  ?>
+
+	You can set horizontal or vertical orientation (default = 'horizontal')
+
+		[php]
+		<?php ui_slider_create(
+              'veticalSliderId',
+              array(
+		        'orientation' => 'vertical',
+                'value' => 25));  ?>
+
+	<br><br>
+  * **Tabs**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions') ?>
+		<?php use_helper('ysJQueryUITabs')      ?>
+
+		<?php ui_tabs_init_panel(
+				'tabPanelId',
+				array(
+				  'disabled' => array(2),
+				  'sortable' => true,
+				  'fx'       => array('opacity' => 'toggle',
+				  'duration' => 'slow'),
+				  'unselect' => true,
+				  'collapsible' => false))?>
+
+			<?php ui_tabs_init()?>
+			  <?php ui_tab('myTab1', 'Tab 1 Title')?>
+			  <?php ui_tab('myTab2', 'Tab 2 Title')?>
+			  <?php ui_tab(url_for('jqueryui_demo/accordion'), 'Remote' , true)?>
+			<?php ui_tabs_end()?>
+
+			<?php ui_tabs_init_content_for('myTab1')?>
+			  <p>
+				Tab 1 Content
+			  </p>
+			<?php ui_tabs_end_content()?>
+
+			<?php ui_tabs_init_content_for('myTab2')?>
+			  <p>
+				Tab 2 Content
+			  </p>
+			<?php ui_tabs_end_content()?>
+		<?php ui_tabs_end_panel() ?>
+
+
+*INTERACTIONS:*
+
+  * **Drag and Drop**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions') ?>
+		<?php use_helper('ysJQueryUIDraggable') ?>
+		<?php use_helper('ysJQueryUIDroppable') ?>
+
+		<?php ui_draggable_support_to(
+			  '#draggableSectionId' ,
+			  array(
+				'revert' => true,
+				'cursor' => 'move',
+				'cursorAt' => array(
+				  'top' => -12,
+				  'left' => -20),
+				'helper' => 'clone',
+				'helperFunction' => like_function('return $(\'<div class="ui-widget-header">I"m a helper</div>\')', 'event'))) ?>
+
+		<div id="draggableSectionId"
+			 class="ui-widget-content"
+			 style="width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0;">
+			<p>Draggable</p>
+		</div>
+
+		<?php ui_droppable_support_to(
+			  '#droppableSectionId',
+			  array(
+				'drop' => like_function("$(this).addClass('ui-state-highlight').find('p').html('Dropped!');"),
+				'deactivate' => like_function('alert("Deactivete successful")'),
+				'accept'  => '#draggableSectionId',
+				'activeClass' => 'ui-state-active',
+				'addClasses'  => true,
+				'greedy'  => true,
+				'tolerance' => 'touch',
+				'hoverClass' => 'ui-state-hover')) ?>
+
+		<div id="droppableSectionId"
+			 class="ui-widget-header"
+			 style="width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px;">
+			<p>Drop here</p>
+		</div>
+
+	<br><br>
+  * **Resizable**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions')  ?>
+		<?php use_helper('ysJQueryUIResizable')  ?>
+
+		<?php ui_resizable_support_to(
+			  '#resizablePanelId',
+			  array(
+			    'animate' => true,
+			    'autoHide' => true)) ?>
+
+		<?php echo ui_init_content_panel(
+				   array(
+					 'id' => 'resizablePanelId',
+					 'style' => 'width: 150px; height: 150px; padding: 0.5em;')) ?>
+
+			<?php echo ui_init_title(array('textAlign' => 'center')) ?>
+			  Resizable Panel
+			<?php echo ui_end_title() ?>
+
+			  <p>This is the content</p>
+
+		<?php echo ui_end_content_panel() ?>
+
+	**Tip:** To create a resizable helper, add this css style:
+
+		[css]
+		<style type="text/css">
+			.ui-resizable-helper { border: 1px dotted gray; }
+		</style>
+
+	<br><br>
+  * **Selectable**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions')  ?>
+		<?php use_helper('ysJQueryUISelectable') ?>
+
+		<style type="text/css">
+		.ui-selectable .ui-selecting { background: #FECA40; }
+		.ui-selectable .ui-selected { background: #F39814; color: white; }
+		.ui-selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+		.ui-selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+		</style>
+
+		<ol id="selectableSectionId">
+		  <li class="ui-widget-content">Item 1</li>
+		  <li class="ui-widget-content">Item 2</li>
+		  <li class="ui-widget-content">Item 3</li>
+		  <li class="ui-widget-content">Item 4</li>
+		  <li class="ui-widget-content">Item 5</li>
+		  <li class="ui-widget-content">Item 6</li>
+		</ol>
+		<?php ui_selectable_support_to('#selectableSectionId') ?>
+
+		<?php echo ui_disable_selection('#selectableSectionId li') //Disable selection in the list ?>
+
+	<br><br>
+  * **Sortable**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions') ?>
+		<?php use_helper('ysJQueryUISortable')  ?>
+
+		<style type="text/css">
+		#sortableId1 , #sortableId2 { list-style-type: none; margin: 0; padding: 0; zoom: 1; }
+		#sortableId1 li , #sortableId2 li{ margin: 0 5px 5px 5px; padding: 3px; width: 90%; }
+		</style>
+
+		<ul id="sortableId1">
+		  <li class="ui-state-default">Item 1-1</li>
+		  <li class="ui-state-default">Item 1-2</li>
+		  <li class="ui-state-default">Item 1-3</li>
+		  <li class="ui-state-default">Item 1-4</li>
+		</ul>
+
+
+		<ul id="sortableId2">
+		  <li class="ui-state-default">Item 2-1</li>
+		  <li class="ui-state-default ui-state-disabled">(I'm not sortable or a drop target)</li>
+		  <li class="ui-state-default ui-state-disabled">(I'm not sortable or a drop target)</li>
+		  <li class="ui-state-default">Item 2-2</li>
+		</ul>
+
+
+		<?php ui_sortable_support_to(
+			  '#sortableId1, #sortableId2',
+			  array(
+				'items' => 'li:not(.ui-state-disabled)'))?>
+
+		<?php echo ui_disable_selection('#sortableId1 li, #sortableId2 li') //Disable selection in the list ?>
+
+
+*EFFECTS:*
+
+  * **ui_add_effects_support('effect' or array('effect1', 'effect2'))**
+		Add the javascript files for the effect support.
+	<br>
+	**Example**:
+
+		[php]
+		<?php ui_add_effects_support('bounce')  ?>
+		<?php ui_add_effects_support(array('bounce' , 'slide'))   ?>
+
+	<br>
+  * **add_core_hover_animation('jquery-selector', 'class1', 'class2')**
+		<br>
+		This helper adds a hover animation to matching elements with the jquery selector.
+		The 2nd and 3rd arguments are optional and their respectively default values are 'ui-state-hover' , 'ui-state-active'
+	<br>
+	**Example**:
+
+		[php]
+		<?php echo ui_core_hover_animation_to('input:button')?>
+		<?php echo ui_core_hover_animation_to('input:button', 'myCustonHoverClass', 'myCustomActiveClass') ?>
+
+	<br><br>
+  * **Add Class**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions') ?>
+		<?php use_helper('ysJQueryUIEffects')   ?>
+
+		<?php echo ui_link_button(array('id' => 'btnAddClassId','value' => 'Run Effect'))?>
+
+		<?php echo ui_effects_add_class(
+				   '#sectionToAddClassId',
+				   array(
+				     'listener' => array(
+				       'selector' => '#btnAddClassId',
+					   'event'=> 'click' ),
+				     'class' => 'ui-widget-content',
+				     'duration' => 'slow' ,
+				     'callback' => like_function("alert('Class Added')"))) ?>
+
+		<div id="sectionToAddClassId" style="width:250px">
+			<br>
+			<p>Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+			</p>
+			<br>
+		</div>
+
+	<br><br>
+  * **Remove Class**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions') ?>
+		<?php use_helper('ysJQueryUIEffects')   ?>
+
+		<?php echo ui_link_button(array('id' => 'btnRemoveClassId','value' => 'Run Effect'))?>
+
+		<?php echo ui_effects_remove_class(
+				   '#sectionToRemoveClassId',
+				   array(
+				     'listener' => array(
+					   'selector' => '#btnRemoveClassId',
+					   'event'=> 'click'),
+				     'class' => 'ui-widget-content',
+				     'duration' => 'slow' ,
+				     'callback' => like_function("alert('Class Removed')"))) ?>
+
+		<div id="sectionToRemoveClassId" class="ui-widget-content" style="width:250px">
+			<br>
+			<p>Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+			</p>
+			<br>
+		</div>
+
+	<br><br>
+  * **Animate** Complex demo:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions') ?>
+		<?php use_helper('ysJQueryUIEffects')   ?>
+
+		<?php echo ui_link_button(array('id' => 'btnAnimate','value' => 'Run Effect'))?>
+
+		<?php echo add_jquery_support(
+				   'document',
+				   'ready' ,
+				   like_function(
+				     jquery_toggle_event(
+				     '#btnAnimate',
+				     array(
+				       like_function(
+						 jquery_execute_effect(
+				           '.divToAnimate',
+				           'animate',
+				           array(
+						     'options' => array(
+						       'backgroundColor' => '#aa0000',
+						       'color' => '#fff',
+						       'width' => 500),
+						       'speed' => 1000))),
+						like_function(
+						  jquery_execute_effect(
+				            '.divToAnimate',
+				            'animate',
+						    array(
+						      'options' => array(
+						        'backgroundColor' => '#fff',
+						        'color' => '#000',
+						        'width' => 240),
+						        'speed' => 1000))))))) ?>
+
+		<div class="divToAnimate" style="width:250px">
+			<br>
+			<p>Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+			</p>
+			<br>
+		</div>
+
+	<br><br>
+  * **Effects**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions') ?>
+		<?php use_helper('ysJQueryUIEffects') ?>
+
+		<?php echo ui_link_button(array('id' => 'btnExecuteEffectId','value' => 'Run Effect'))?>
+
+		<?php echo ui_effects(
+				   '#divEffectId',
+				   array(
+				     'listener' => array(
+					   'selector' => '#btnExecuteEffectId',
+					   'event'=> 'click'),
+				     'effect' => 'highlight',
+				     'speed' => 500,
+				     'callback' => like_function("alert('Highlight Effect successful')")))?>
+
+		<div id="divEffectId" class="ui-widget-content" style="width:250px">
+			<br>
+			<p>Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+			</p>
+			<br>
+		</div>
+
+	<br><br>
+  * **Hide**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions') ?>
+		<?php use_helper('ysJQueryUIEffects') ?>
+
+		<?php echo ui_link_button(array('id' => 'btnHideEffectId','value' => 'Run Effect'))?>
+
+		<?php echo ui_effects_hide(
+				   '#divEffectId',
+				   array(
+				     'listener' => array(
+					   'selector' => '#btnHideEffectId',
+					   'event'=> 'click'),
+				     'effect' => 'clip',
+				     'speed' => 'slow',
+				     'callback' => like_function("alert('Hide effect successful')"))); ?>
+
+		<div id="divEffectId" class="ui-widget-content" style="width:250px">
+			<br>
+			<p>Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+			</p>
+			<br>
+		</div>
+
+	<br><br>
+  * **Show**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions') ?>
+		<?php use_helper('ysJQueryUIEffects') ?>
+
+		<?php echo ui_link_button(array('id' => 'btnShowEffectId','value' => 'Run Effect'))?>
+
+
+		<?php echo ui_effects_show(
+				   '#divEffectId',
+				   array(
+				     'listener' => array(
+				       'selector' => '#btnShowEffectId',
+				       'event'=> 'click'),
+				     'effect' => 'blind',
+				     'speed' => 'slow',
+				     'callback' => like_function("alert('Show effect successful')"))) ?>
+
+		<div id="divEffectId" class="ui-widget-content" style="width:250px">
+			<br>
+			<p>Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+			</p>
+			<br>
+		</div>
+
+	<br><br>
+  * **Switch Class**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions') ?>
+		<?php use_helper('ysJQueryUIEffects') ?>
+
+		<?php echo ui_link_button(array('id' => 'btnExecuteSwitchClassId','value' => 'Run Effect'))?>
+
+		<?php echo ui_effects_switch_class(
+				   '#divSwitchClassId',
+				   array(
+				     'listener' => array(
+					   'selector' => '#btnExecuteSwitchClassId',
+					   'event'=> 'click'),
+				     'remove' => 'ui-widget-content',
+				     'add' => 'ui-widget-header',
+				     'duration' => 'slow')) ?>
+
+		<div id="divSwitchClassId" style="width:250px">
+			<br>
+			<p>Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+			</p>
+			<br>
+		</div>
+
+	<br><br>
+  * **Toggle**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions') ?>
+		<?php use_helper('ysJQueryUIEffects') ?>
+
+		<?php echo ui_link_button(array('id' => 'btnExecuteToggleEffectId','value' => 'Run Effect'))?>
+
+		<?php echo ui_effects_toggle(
+				'#divToggleEffectId',
+				array(
+				  'listener' => array(
+				    'selector' => '#btnExecuteToggleEffectId',
+				    'event'=> 'click'),
+				  'effect' => 'explode',
+				  'speed' => 'slow',
+				  'callback' => like_function("alert('Toggle effect successful')"))) ?>
+
+		<div id="divToggleEffectId" style="width:250px">
+			<br>
+			<p>Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+			</p>
+			<br>
+		</div>
+
+	<br><br>
+  * **Toggle Class**:
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions') ?>
+		<?php use_helper('ysJQueryUIEffects') ?>
+
+		<?php echo ui_link_button(array('id' => 'btnExecuteToggleClassId','value' => 'Run Effect'))?>
+
+		<?php echo ui_effects_toggle_class(
+				   '#divToggleClassId',
+				   array(
+				     'listener' => array(
+				       'selector' => '#btnExecuteToggleClassId',
+				       'event'=> 'click'),
+				     'class' => 'ui-widget-header',
+				     'duration' => 'slow')) ?>
+
+		<div id="divToggleClassId" class="ui-widget-content" style="width:250px">
+			<br>
+			<p>Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+			</p>
+			<br>
+		</div>
+
+*LAYOUT:*
+
+
+  * Copy this code in your layout.php:
+
+		[php]
+		<?php use_helper('ysJQueryUILayout'); ?>
+
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+		  <head>
+			<?php include_http_metas() ?>
+			<?php include_metas() ?>
+			<?php include_title() ?>
+			<link rel="shortcut icon" href="/favicon.ico" />
+			<?php include_stylesheets() ?>
+			<?php include_javascripts() ?>
+
+			<?php ui_layout_configure_to(
+					'layoutVarName',
+					'body') ?>
+
+		  </head>
+		  <body>
+			<div class="ui-layout-center">
+			  <?php echo $sf_content ?>
+
+			  <?php //echo $sf_data->getRaw('sf_content') // for symfony 1.0?>
+			</div>
+
+			<div class="ui-layout-north">
+			  <span style="font-size:12px;">
+				TIP: Using an IFRAME as a pane works great! Since the iframe auto-sizes,
+				you will never again have TWO vertical scrollbars on your page.
+			  </span>
+			</div>
+
+			<div class="ui-layout-south">
+			  <span style="font-size:12px;">South Content</span>
+
+			</div>
+
+			<div class="ui-layout-east">
+				<span style="font-size:12px;">East Content</span>
+			</div>
+
+			<div class="ui-layout-west">
+				<span style="font-size:12px;">West Content</span>
+			</div>
+
+		  </body>
+		</html>
+
+
+	In the module 'jqueryui_demo' you can see a complex layout.php example.
+
+	*New:* Now you can load the UI.Layout options from a yaml file.
+	
+		[php]
+		<?php use_helper('ysJQueryUILayout'); ?>
+
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+		  <head>
+			<?php include_http_metas() ?>
+			<?php include_metas() ?>
+			<?php include_title() ?>
+			<link rel="shortcut icon" href="/favicon.ico" />
+			<?php include_stylesheets() ?>
+			<?php include_javascripts() ?>
+
+			<?php ui_layout_configure_to(
+					'layoutVarName',
+					'body'
+					array('yml' => 'path/to/the/yml/filename.yml', 'ymlKey' => 'the_yml_key')) ?>	
+	
+	The same yaml file can have multiple configurations so the 'ymlKey' option is a very important option in this case
+	
+	The 'ymlKey' default value is = 'layout'
+	
+*FG-MENU:* This widget support Symfony User Credentials
+
+
+  * Example:
+
+		[php]
+		<?php echo ui_menu_init(
+				'menuId', // <- Id
+				'My Menu', //   <- Menu-Button Caption
+				array(
+				  'button' => array('align' => 'left', 'icon' => 'newwin'),
+				  'disabled' => true,
+				  'node1' => array(
+					'id' => 'node1',
+					'value' => 'Value node1',
+					'disabled' => true,
+					'actions' => 'myAlertFuntion()',
+					'items' => array(
+					  'node11' => array(
+						'id' => 'node11',
+						'value' =>  'Value node1.1',
+						'disabled' => true,
+						'items' => array(
+						  'node111' => array(
+							'id' => 'node1.1.1',
+							'value' =>  'Value node111',
+							'items' => array(
+							  'node1111' => array(
+								'id' => 'node1111',
+								'url' => url_for('jqueryui_demo/dialog'),
+								'value' =>  'Value node1.1.1.1',))))),
+					  'node12' => array(
+						'id' => 'node12',
+						'disabled' => true,
+						'value' =>  'Value node1.2',
+						'url' => 'http://www.google.com' ))))) ?>
+
+	It is very hard to generate the menu from an array. The best way is by defining a yml file
+	
+		[php]
+    <?php echo ui_menu_init(
+      'menuId', // <- Id
+      'My Menu',   <- Menu-Button Caption
+      array(
+        'yml' => 'path/to/yourProjectDir/plugins/ysJQueryUIPlugin/config/menu.yml', // For example
+        'ymlKey' => 'myMenuIndex' // the default yml key is 'menu'
+      ))  ?>
+				
+	The yml in 	path/to/yourProjectDir/plugins/ysJQueryUIPlugin/config/menu.yml
+	
+		[yml]
+		myMenuIndex:
+		  node1:
+		    id: node1
+		    value: Value node1
+			credentials: [[ admin, superuser ]]
+		    actions: myJsFunction('<?php echo url_for('jqueryui_demo/dialog') ?>')
+		    items:
+		      node1_1:
+			    id : node11
+			    value:  Value node1.11111
+			    items:
+				  node1_1_1:
+				  id: node111
+				  actions: {click: alert('Hello world')}
+				  value:  Value node111
+				  items:
+				    node1_1_1_1 :
+				   	  id: node1111
+					  url: '<?php echo url_for('jqueryui_demo/dialog') ?>'
+					  actions: {click: alert('Hello world')}
+					  value:  Value node1.1.1.1
+			  node1_2:
+			    id: node12,
+			    alue:  Value node1.2
+			    url: http://www.google.com
+			separator1:
+			  type: separator
+			node2:
+		      credentials: [superuser]
+			  id: node2
+			  value: Value node2
+				
+	The same yaml file can have multiple configurations so the 'ymlKey' option is a very important option in this case
+	
+	The 'ymlKey' default value is = 'menu'
+	
+	The 'yml' value depends on the OS and your project path.
+
+    * **Examples**: See the module: jqueryui_demo/menu .
+    * On windows: 
+	'yml' => 'C:\server\project\plugins\ysJQueryUIPlugin\config\menu.yml'
+	* On Linux:
+	'yml' => '/home/user/project/plugins/ysJQueryUIPlugin/config/menu.yml'
+   
+
+*Context menu:* This widget support Symfony User Credentials
+
+
+  * Example:
+
+		[php]
+		
+		<script type="text/javascript">
+			
+			function my_alert_function(){
+				alert('My Alert Function');
+			}
+			
+			function my_function(action, el, pos) {
+				alert(
+				'Action: ' + action + '\n\n' +
+				'Element text: ' + $(el).find('td').html() + '\n\n' +
+				'Element ID: ' + $(el).attr('id') + '\n\n' +
+				'X: ' + pos.x + '  Y: ' + pos.y + ' (relative to element)\n\n' +
+				'X: ' + pos.docX + '  Y: ' + pos.docY+ ' (relative to document)'
+				);
+			}	
+
+			function my_function2(action, el, pos) {
+				alert(
+				'Action: ' + action + '\n\n' +
+				'Element text: ' + $(el).text() + '\n\n' +
+				'X: ' + pos.x + '  Y: ' + pos.y + ' (relative to element)\n\n' +
+				'X: ' + pos.docX + '  Y: ' + pos.docY+ ' (relative to document)'
+				);
+			}
+		</script>
+		
+		
+		<?php echo ui_context_menu_init(
+				'menuId',
+				array(
+				  'node1' => array(
+				  'id' => 'node1',
+				  'value' => 'Value node1',
+				  'icon' => 'newwin',
+				  'url' => 'http://www.google.com',
+				  'actions' => 'my_alert_function()'),
+				    'node11' => array(
+				      'id' => 'node11',
+					  'icon' => 'pencil',
+					  'value' => 'Value node1.1',
+					  'actions' => array('click' => "alert('Hello world')")),
+				 'separator1' => array('type' => 'separator'),
+			     'node12' => array(
+				   'id' => 'node12',
+				   'icon' => 'disk',
+				   'value' =>  'Value node1.2',
+				   'url' => 'http://www.google.com' ))) ?>
+						
+		<?php echo ui_context_menu_support_to('menuId', '#myTable table tr', 'my_function') ?>
+
+	It is very hard to generate the context menu from an array. The best way is by defining a yml file
+	
+		[php]
+		<?php echo ui_context_menu_init(
+				  'menuId',
+				  array(
+					'yml' => 'C:\servidor\web_home\app14\plugins\ysJQueryUIPlugin\config\contextMenu.yml',
+					'ymlKey' => 'myContextMenu')) ?>
+				
+	The yml in 	path/to/yourProjectDir/plugins/ysJQueryUIPlugin/config/contextMenu.yml
+	
+		[yml]
+		myContextMenu:
+		  support_to:
+			'#myList UL LI': my_function2
+		  edit:
+			id : edit
+			value:  Edit
+			icon:  pencil
+			credentials: [[ admin, superuser ]]
+		  separator1: { type   :  separator}
+		  cut:
+			id:  cut
+			icon:  scissors
+			value:  Cut
+		  copy:
+			id:  copy
+			icon:  document
+			value:  Copy
+		  paste:
+			id:  paste
+			icon:  clipboard
+			value:  Paste
+			actions:  { click   : "alert('Hello world')"}
+		  delete:
+			id:  delete
+			icon:  disk
+			value:  close
+			credentials: [admin, superuser]
+			actions:  my_alert_function()
+		  separator2: { type   :  separator}
+		  quit:
+			id:  quit
+			icon:  extlink
+			value:   Quit
+			target: center
+			url:  http://www.google.com
+				
+	The same yaml file can have multiple configurations so the 'ymlKey' option is a very important in this case
+	
+	The 'ymlKey' default value is = 'contextMenu'
+	
+	The 'yml' value depends on the OS and your project path.
+
+    * **Examples**: See the module: jqueryui_demo/contextMenu .
+    * On windows: 
+	'yml' => 'C:\server\project\plugins\ysJQueryUIPlugin\config\contextMenu.yml'
+	* On Linux:
+	'yml' => '/home/user/project/plugins/ysJQueryUIPlugin/config/contextMenu.yml'
+
+*MORE:*
+
+
+  * **Panels**: See the module: jqueryui_demo/panel .
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions') ?>
+		<?php use_helper('ysJQueryUICore')   ?>
+
+		<?php echo ui_init_content_panel()?>
+		  <?php echo ui_init_title(
+				   array(
+					'icon' => 'newwin' ,
+					'style' => 'cursor:pointer')) ?>
+			This is the title
+		  <?php echo ui_end_title() ?>
+
+		  <?php echo ui_init_content()?>
+			<p>This is the content panel</p>
+		  <?php echo ui_end_content()?>
+
+		<?php echo ui_end_content_panel()?>
+
+  * **Link Button**: See the module: jqueryui_demo/buttons .
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions')?>
+		<?php use_helper('ysJQueryUICore')?>
+
+		<?php echo add_jquery_support('#lnkBtnId', 'click', like_function('alert("test")'))?>
+
+		<?php echo ui_link_button(
+				   array(
+					 'icon'  => 'newwin',        //  ui-icon-<newwin>
+					 'align' => 'right',         // (left| rigth)
+					 'title' => 'My Title',
+					 //'noTitle' => true,          // (<false> | true)
+					 'corner' => 'left',         // (<all> |left| rigth)
+					 'state' => 'disabled',      // (<enable> | disabled)
+					 'target' => '_blank',       // (<_self> | frame id | _blank, _top, _parent)
+					 'priority' => 'secondary',  // (<primary> | secondary )
+					 'show' => true,             // (<true> | false)
+					 'url' => url_for('http://www.google.com'),
+					 'value' => 'Link button',
+					 'id' => 'lnkBtnId')); ?>
+
+  * **Button**: See the module: jqueryui_demo/buttons .
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions')?>
+		<?php use_helper('ysJQueryUICore')?>
+
+		<?php echo ui_button(
+				   array(
+					 'title' => 'My Title',
+					 //'noTitle' => true,          // (<false> | true)
+					 'corner' => 'left',         // (<all> |left| rigth)
+					 'state' => 'disabled',      // (<enable> | disabled)
+					 'priority' => 'secondary',  // (<primary> | secondary )
+					 'show' => true,             // (<true> | false)
+					 'value' => 'Link button',
+					 'id' => 'btnId')); ?>
+
+  * **Button Pane**: See the module: jqueryui_demo/buttons .
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions')?>
+		<?php use_helper('ysJQueryUICore')?>
+
+		<?php echo ui_button_pane_init(
+				 $type = 'single',
+				 array(
+				  'idBtn1' => array(
+					 'value' => 'Hello',
+					 'icon' => 'newwin'),
+				  'idBtn2' => array(
+					 'value' => 'World',
+					 'icon' => 'newwin')))?>
+		<?php echo ui_button_pane_end() ?>
+		<?php echo ui_button_pane_init(
+				 $type = 'multiple',
+				 array(
+				  'idBtn3' => array(
+					'title' => 'B',
+					'value' => '<b>B</b>'),
+				  'idBtn4' => array(
+					'title' => 'I',
+					'value' => '<i>I</i>'),
+				  'idBtn5' => array(
+					'title' => 'U',
+					'value' => '<u>U</u>')))?>
+		<?php echo ui_button_pane_end() ?>
+		
+  * **UI Table**: See the module: jqueryui_demo/buttons .
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions')?>
+		<?php use_helper('ysJQueryUICore')?>
+
+		<?php ui_grid_init('jQuery UI Grid Header') ?>
+		  <?php	  ui_grid_head_init() ?>
+			<?php     ui_grid_th('<a>First</a>', 'colspan="2"') ?>
+			<?php     ui_grid_th('<a>Second</a>') ?>
+			<?php     ui_grid_th('<a>Third</a>') ?>
+		  <?php	  ui_grid_head_end() ?>
+
+		  <?php   ui_grid_body_init() ?>
+			<?php	  for($i=0;$i<=10;$i++): ?>
+			  <?php     ui_grid_tr_init() ?>
+				<?php	  for($j=0;$j<=3;$j++): ?>
+				<?php     ui_grid_td_init() ?>
+						<?php echo sprintf('Value %s-%s',$i,$j) ?>
+				<?php     ui_grid_td_end() ?>
+				<?php	  endfor; ?>
+			  <?php     ui_grid_tr_end() ?>
+			<?php	  endfor; ?>
+		  <?php   ui_grid_body_end() ?>
+
+		  <?php   ui_grid_foot_init() ?>
+			<div class="ui-grid-paging ui-helper-clearfix">
+			  <a href="#" class="ui-grid-paging-prev ui-state-default ui-corner-left"><span class="ui-icon ui-icon-triangle-1-w" title="previous set of results"></span></a>
+			  <a href="#" class="ui-grid-paging-next ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-e" title="next set of results"></span></a>
+			</div>
+			<div class="ui-grid-results">Showing results ???</div>
+		  <?php   ui_grid_foot_end() ?>.
+		  
+		<?php ui_grid_end() ?>
+
+  * **Themeroller Tool**: See the layout.php. You can use it to show customers the differents styles for the application
+
+		[php]
+		<?php use_helper('ysJQueryRevolutions')?>
+		<?php use_helper('ysJQueryUICore')?>
+
+		<?php echo ui_theme_switcher_tool(
+				   'themeroller',
+				   array(
+				     'width' => 200,
+					 'buttonPreText' => 'ysJQueryUIPlugin: ')) ?>
+
+More documentation and examples in the module 'jqueryui_demo'
+
+*How to change the jQueryUI Theme*
+----------------------------------
+
+If you configuration in app.yml is 'ajax.googleapis.com' go to step 6
+
+1. Go to jqueryui.com themeroller web site [Here](http://jqueryui.com/themeroller/ "jqueryui.com").
+2. Choose and Download the theme(for example download the Smoothness theme).
+3. The zip file name is jquery-ui-1.7.2.custom by default.
+5. Unzip and copy the folder '\jquery-ui-1.7.2.custom\development-bundle\themes\smoothness'.
+5. Paste the folder in the directory 'web\ysJQueryUIPlugin\css\themes' of tou application.
+6. Change the app.yml file:
+
+	    [yml]
+		all:
+		  .ys_jquery_ui_plugins:
+		    ...
+		    ...
+		    ys_jquery_ui_theme: smoothness              #default ui-lightness
+		    ...
+		    ...
+
+*Available Helpers functions:*
+------------------------------
+
+For more information about this functions and its arguments see the phpdocs.
+
+*   **Accordion**
+	1.  ***ui_accordion_activate***() : jquery sintax
+	2.  ***ui_accordion_build***() : jquery sintax
+	3.  ***ui_accordion_destroy***() : jquery sintax
+	4.  ***ui_accordion_disable***() : jquery sintax
+	5.  ***ui_accordion_end***() : html sintax
+	6.  ***ui_accordion_end_section***() : html sintax
+	7.  ***ui_accordion_get_option***() : jquery sintax
+	8.  ***ui_accordion_init***() : html & jquery sintax
+	9.  ***ui_accordion_init_section***() : html & jquery sintax
+	10. ***ui_accordion_set_options***() : jquery sintax
+
+*   **Datepicker**
+	1.  ***ui_datepicker_build***() : jquery sintax
+	2.  ***ui_datepicker_change_i18n***() : jquery sintax
+	3.  ***ui_datepicker_create***() : html & jquery sintax
+	4.  ***ui_datepicker_destroy***() : jquery sintax
+	6.  ***ui_datepicker_enable***() : jquery sintax
+	7.  ***ui_datepicker_disable***() : jquery sintax
+	8.  ***ui_datepicker_dialog***() : jquery sintax
+	9.  ***ui_datepicker_is_disabled***() : jquery sintax
+	10.  ***ui_datepicker_hide***() : jquery sintax
+	11.  ***ui_datepicker_show***() : jquery sintax
+	12.  ***ui_datepicker_get_date***() : jquery sintax
+	13.  ***ui_datepicker_set_date***() : jquery sintax
+	14.  ***ui_datepicker_get_option***() : jquery sintax
+	15.  ***ui_datepicker_set_options***() : jquery sintax
+	16.  ***ui_datepicker_set_defaults***() : jquery sintax
+	17.  ***ui_datepicker_regional***() : jquery sintax
+
+*   **Dialog**
+	1.  ***ui_dialog_init***() : html & jquery sintax
+	2.  ***ui_dialog_end***() : html & jquery sintax
+	3.  ***ui_dialog_destroy***() : jquery sintax
+	4.  ***ui_dialog_build***() : jquery sintax
+	5.  ***ui_dialog_enable***() : jquery sintax
+	6.  ***ui_dialog_disable***() : jquery sintax
+	7.  ***ui_dialog_close***() : jquery sintax
+	8.  ***ui_dialog_open***() : jquery sintax
+	9.  ***ui_dialog_is_open***() : jquery sintax
+	10.  ***ui_dialog_open_on_event***() : jquery sintax
+	11.  ***ui_dialog_move_to_top***() : jquery sintax
+	12.  ***ui_dialog_get_option***() : jquery sintax
+	13.  ***ui_dialog_set_options***() : jquery sintax
+
+*   **Draggable**
+	1.  ***ui_draggable_support_to***() : jquery sintax
+	2.  ***ui_draggable_build***() : jquery sintax
+	3.  ***ui_draggable_destroy***() : jquery sintax
+	4.  ***ui_draggable_enable***() : jquery sintax
+	5.  ***ui_draggable_disable***() : jquery sintax
+	6.  ***ui_draggable_get_option***() : jquery sintax
+	7.  ***ui_draggable_set_options***() : jquery sintax
+
+*   **Droppable**
+	1.  ***ui_droppable_support_to***() : html & jquery sintax
+	2.  ***ui_droppable_build***() : html & jquery sintax
+	3.  ***ui_droppable_destroy***() : html & jquery sintax
+	4.  ***ui_droppable_enable***() : jquery sintax
+	5.  ***ui_droppable_disable***() : jquery sintax
+	6.  ***ui_droppable_get_option***() : jquery sintax
+	7.  ***ui_droppable_set_options***() : jquery sintax
+
+*   **Effects**
+	1.  ***ui_effects_add_class***() : html & jquery sintax
+	2.  ***ui_effects_remove_class***() : html & jquery sintax
+	3.  ***ui_effects***() : html & jquery sintax
+	4.  ***ui_effects_hide***() : jquery sintax
+	5.  ***ui_effects_show***() : jquery sintax
+	6.  ***ui_effects_switch_class***() : jquery sintax
+	7.  ***ui_effects_toggle***() : jquery sintax
+	8.  ***ui_effects_toggle_class***() : jquery sintax
+
+*   **Layout**
+	1.  ***ui_layout_configure_to***() : html & jquery sintax
+	
+*   **Menu**
+	1.  ***ui_menu_init***() : html & jquery sintax
+
+*   **Context Menu**
+	1.  ***ui_context_menu_init***() : html & jquery sintax
+	2.  ***ui_context_menu_support_to***() : jquery sintax
+	3.  ***ui_context_menu_disable***() : jquery sintax
+	4.  ***ui_context_menu_enable***() : jquery sintax
+	5.  ***ui_context_menu_enable_items***() : jquery sintax
+	6.  ***ui_context_menu_disable_items***() : jquery sintax
+
+*   **Progressbar**
+	1.  ***ui_progressbar_create***() : html & jquery sintax
+	2.  ***ui_progressbar_destroy***() : jquery sintax
+	3.  ***ui_progressbar_enable***() : jquery sintax
+	4.  ***ui_progressbar_disable***() : jquery sintax
+	5.  ***ui_progressbar_init_animation_now***() : jquery sintax
+	6.  ***ui_progressbar_animate***() : jquery sintax
+	7.  ***ui_progressbar_set_value***() : jquery sintax
+	8.  ***ui_progressbar_get_option***() : jquery sintax
+	9.  ***ui_progressbar_set_options***() : jquery sintax
+
+*   **Resizable**
+	1.  ***ui_resizable_support_to***() : jquery sintax
+	2.  ***ui_resizable_build***() : jquery sintax
+	3.  ***ui_resizable_destroy***() : jquery sintax
+	4.  ***ui_resizable_enable***() : jquery sintax
+	5.  ***ui_resizable_disable***() : jquery sintax
+	6.  ***ui_resizable_get_option***() : jquery sintax
+	7.  ***ui_resizable_set_options***() : jquery sintax
+
+*   **Selectable**
+	1.  ***ui_selectable_support_to***() : jquery sintax
+	2.  ***ui_selectable_build***() : jquery sintax
+	3.  ***ui_selectable_destroy***() : jquery sintax
+	4.  ***ui_selectable_enable***() : jquery sintax
+	5.  ***ui_selectable_refresh***() : jquery sintax
+	6.  ***ui_selectable_disable***() : jquery sintax
+	7.  ***ui_selectable_get_option***() : jquery sintax
+	8.  ***ui_selectable_set_options***() : jquery sintax
+
+*   **Slider**
+	1.  ***ui_slider_create***() : html & jquery sintax
+	2.  ***ui_slider_destroy***() : jquery sintax
+	3.  ***ui_slider_build***() : jquery sintax
+	4.  ***ui_slider_enable***() : jquery sintax
+	5.  ***ui_slider_disable***() : jquery sintax
+	6.  ***ui_slider_value***() : jquery sintax
+	7.  ***ui_slider_values***() : jquery sintax
+	8.  ***ui_slider_get_option***() : jquery sintax
+	9.  ***ui_slider_set_options***() : jquery sintax
+
+*   **Sortable**
+	1.  ***ui_sortable_support_to***() : html & jquery sintax
+	2.  ***ui_sortable_build***() : jquery sintax
+	3.  ***ui_sortable_destroy***() : jquery sintax
+	4.  ***ui_sortable_enable***() : jquery sintax
+	5.  ***ui_sortable_disable***() : jquery sintax
+	6.  ***ui_sortable_refresh***() : jquery sintax
+	7.  ***ui_sortable_refresh_position***() : jquery sintax
+	8.  ***ui_sortable_serialize***() : jquery sintax
+	9.  ***ui_sortable_to_array***() : jquery sintax
+	10.  ***ui_sortable_cancel***() : jquery sintax
+	11.  ***ui_sortable_get_option***() : jquery sintax
+	12.  ***ui_sortable_set_options***() : jquery sintax
+
+*   **Tabs**
+	1.  ***ui_tabs_init_panel***() : html & jquery sintax
+	2.  ***ui_tabs_init***() : html sintax
+	3.  ***ui_tab***() : html sintax
+	4.  ***ui_tabs_init_content_for***() : html sintax
+	5.  ***ui_tabs_end_content***() : html sintax
+	6.  ***ui_tabs_end***() : html sintax
+	7.  ***ui_tabs_end_panel***() : html sintax
+	8.  ***ui_tabs_destroy_panel***() : jquery sintax
+	9.  ***ui_tabs_build_panel***() : jquery sintax
+	10.  ***ui_tabs_enable***() : jquery sintax
+	11.  ***ui_tabs_disable***() : jquery sintax
+	12.  ***ui_tabs_select***() : jquery sintax
+	13.  ***ui_tabs_load***() : jquery sintax
+	14.  ***ui_tabs_remove***() : jquery sintax
+	15.  ***ui_tabs_add***() : jquery sintax
+	16.  ***ui_tabs_length***() : jquery sintax
+	17.  ***ui_tabs_abort***() : jquery sintax
+	18.  ***ui_tabs_rotate***() : jquery sintax
+	19.  ***ui_tabs_sortable***() : jquery sintax
+	20.  ***ui_tabs_url***() : jquery sintax
+	21.  ***ui_tabs_get_option***() : jquery sintax
+	22.  ***ui_tabs_set_options***() : jquery sintax
+
+*   **Core**
+	1.  ***ui_add_effects_support***() :
+	2.  ***ui_change_i18n***() :
+	3.  ***ui_init_content_panel***() : html sintax
+	4.  ***ui_end_content_panel***() : html sintax
+	5.  ***ui_init_content***() : html sintax
+	6.  ***ui_init_title***() : html sintax
+	7.  ***ui_end_title***() : html sintax
+	8.  ***ui_create_icon***() : html sintax
+	9.  ***ui_button***() : html sintax
+	10.  ***ui_link_button***() : html sintax
+	11.  ***ui_theme_switcher_tool***() : html & jquery sintax
+	12.  ***ui_button_pane_init***() : html sintax
+	13.  ***ui_button_pane_end***() : html sintax
+	14.  ***ui_toolbar_init***() : html sintax
+	15.  ***ui_toolbar_end***() : html sintax
+	16.  ***ui_core_hover_animation_to***() : jquery sintax
+	17.  ***ui_disable_selection***() : jquery sintax
+	18.  ***ui_enable_button***() : jquery sintax
+	19.  ***ui_enable_link_button***() : jquery sintax
+	20.  ***ui_disable_button***() : jquery sintax
+	21.  ***ui_disable_link_button***() : jquery sintax
+	22.  ***ui_grid_init***() : jquery sintax
+	23.  ***ui_grid_head_init***() : jquery sintax
+	24.  ***ui_grid_th***() : jquery sintax
+	25.  ***ui_grid_head_end***() : jquery sintax
+	26.  ***ui_grid_body_init***() : jquery sintax
+	27.  ***ui_grid_tr_init***() : jquery sintax
+	28.  ***ui_grid_tr_end***() : jquery sintax
+	29.  ***ui_grid_td_init***() : jquery sintax
+	30.  ***ui_grid_td_end***() : jquery sintax
+	31.  ***ui_grid_body_end***() : jquery sintax
+	32.  ***ui_grid_foot_init***() : jquery sintax
+	33.  ***ui_grid_foot_end***() : jquery sintax
+	34.  ***ui_grid_end***() : jquery sintax
+	
+	
+*Todo*
+-------
+
+  * Fix bugs
+  * Build a theme for the task <doctrine:generate-module --theme="the-theme">
+  * Upgrade to jQueryUI 1.8, Waiting for stable release
+  * Add support for jqgrid => [Here](http://www.trirand.com/blog/ "jqgrid")
+  * Add Support for jsTree => [Here](http://www.jstree.com/ "jstree")
+  * Add support for jquery.UI beta Widgets => [Here](http://www.jqueryui.com/Ajax "jQuery UI")
+  * Add support for the improvements developed by Filament Group => [Here](http://www.filamentgroup.com "Filament Group")

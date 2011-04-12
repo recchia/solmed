@@ -1,0 +1,28 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    config:
+      edit:
+        title: Editar permiso "%%name%%"
+        fields:
+          name: { label: "Nombre" }
+          description: { label: "Descripción" }
+          users_list: { label: "Usuarios" }
+          groups_list: { label: "Grupos" }
+      new:
+        title: Nuevo Permiso
+        fields:
+          name: { label: "Nombre" }
+          description: { label: "Descripción" }
+          users_list: { label: "Usuarios" }
+          groups_list: { label: "Grupos" }
+      list:
+        title: Permisos del Sistema
+        fields:
+          name: { label: "Nombre del Permiso" }
+          description: { label: "Descripción" }
+          users_list: { label: "Usuarios" }
+          groups_list: { label: "Grupos" }
+        object_actions:
+          _edit: { label: Editar }
+          _delete: { label: Eliminar }

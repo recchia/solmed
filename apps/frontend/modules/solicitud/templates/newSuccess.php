@@ -1,0 +1,3 @@
+<h1>Nueva Solicitud</h1>
+
+<?php include_partial('form', array('form' => $form)) ?>

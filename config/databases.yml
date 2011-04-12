@@ -1,0 +1,7 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=solmed;unix_socket=/var/run/mysqld/mysqld.sock'
+      username: solmed
+      password: l3nn4N@

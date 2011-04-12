@@ -1,0 +1,155 @@
+all:
+  .ys_jquery_ui_plugin:
+    ###Core configuration---------------------------------------------------------
+    ### For load jquery.ui from ajax.googleapis.com:
+    #ys_jquery_ui_web_dir:    http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1
+    #ys_jquery_ui_theme_dir:  http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes                                                #default /css/themes
+    #ys_jquery_ui_js_lib_dir: http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1
+    #ys_jquery_ui_theme:      ui-lightness
+    #ys_jquery_ui_i18n_dir:   http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/i18n                                                  #default /i18n
+    #ys_jquery_ui_theme_rolller: http://jqueryui.com/themeroller/themeswitchertool/
+
+    ###jquery.ui.core
+    #ys_jquery_ui_core_js:   [ jquery-ui.min.js ]
+    #ys_jquery_ui_core_css:  [ ui.all.css ]
+
+
+    ### For load from jquery.ui localhost
+    ys_jquery_ui_web_dir:         /ysJQueryUIPlugin                    #default
+    ys_jquery_ui_css_dir:         /ysJQueryUIPlugin/css                #default
+    ys_jquery_ui_theme_dir:       /ysJQueryUIPlugin/css/themes         #default
+    ys_jquery_ui_js_dir:          /ysJQueryUIPlugin/js/                #default
+    ys_jquery_ui_js_lib_dir:      /ysJQueryUIPlugin/js/jquery/ui       #default
+    ys_jquery_ui_theme:           cupertino                           #default  ui-lightness
+    ys_jquery_ui_i18n_dir:        /ysJQueryUIPlugin/js/jquery/ui/i18n  #default
+    ys_jquery_ui_theme_rolller:   /ysJQueryUIPlugin/js/jquery/themeswitchertool.js
+
+    ###jquery.ui.core
+    ys_jquery_ui_core_js:         [ui.core.js]
+    ys_jquery_ui_core_css:        [jquery-ui-1.7.2.custom.css]
+
+    ys_jquery_ui_default_js:      [/ysJQueryUIPlugin/js/jquery/ui.animations.js]
+    ys_jquery_ui_default_css:     [/ysJQueryUIPlugin/css/ui.fgbutton.css, /ysJQueryUIPlugin/css/jquery.ui.css]
+
+    ####jquery.ui.accordion
+    ys_jquery_ui_accordion_js:    [ui.accordion.js]
+    ys_jquery_ui_accordion_css:   []
+    ys_jquery_ui_accordion_defaults:
+
+    ###jquery.ui.tab
+    ys_jquery_ui_tabs_js:         [ui.tabs.js]
+    ys_jquery_ui_tabs_css:        []
+    ys_jquery_ui_tabs_defaults:
+
+    ###jquery.ui.dialog
+    ys_jquery_ui_dialog_js:       [ui.dialog.js, ui.draggable.js, ui.resizable.js]
+    ys_jquery_ui_dialog_css:      []
+    ys_jquery_ui_dialog_defaults:
+      
+    ###jquery.ui.progressbar
+    ys_jquery_ui_progressbar_js:  [ui.progressbar.js]
+    ys_jquery_ui_progressbar_css: []
+    ys_jquery_ui_progressbar_defaults:
+
+    ###jquery.ui.slider
+    ys_jquery_ui_slider_js:       [ui.slider.js]
+    ys_jquery_ui_slider_css:      []
+    ys_jquery_ui_slider_defaults:
+
+    ###jquery.ui.datepicker
+    ys_jquery_ui_datepicker_js:   [ui.datepicker.js]
+    ys_jquery_ui_datepicker_css:  []
+    ys_jquery_ui_datepicker_i18n_file: ui.datepicker-en.js
+    ys_jquery_ui_datepicker_defaults:
+      ### see all options in (http://jqueryui.com/demos/datepicker/#options)
+      #changeMonth: true
+      #changeYear: true
+      #showMonthAfterYear: false
+
+    ###jquery.ui.droppable
+    ys_jquery_ui_droppable_js:    [ui.droppable.js]
+    ys_jquery_ui_droppable_css:   []
+    ys_jquery_ui_droppable_defaults:
+      
+
+    ###jquery.ui.draggable
+    ys_jquery_ui_draggable_js:    [ui.draggable.js]
+    ys_jquery_ui_draggable_css:   []
+    ys_jquery_ui_draggable_defaults:
+
+    ###jquery.ui.resizable
+    ys_jquery_ui_resizable_js:    [ui.resizable.js]
+    ys_jquery_ui_resizable_css:   []
+    ys_jquery_ui_resizable_defaults:
+
+
+    ###jquery.ui.resizable
+    ys_jquery_ui_sortable_js:     [ui.sortable.js]
+    ys_jquery_ui_sortable_css:    []
+    ys_jquery_ui_sortable_defaults:
+
+
+    ###jquery.ui.resizable
+    ys_jquery_ui_selectable_js:   [ui.selectable.js]
+    ys_jquery_ui_selectable_css:  []
+    ys_jquery_ui_selectable_defaults:
+
+
+    ###jquery.ui.layout --------------------------------------------------------
+    ### For load jquery.layout from http://layout.jquery-dev.net
+    #ys_jquery_ui_layout_js_dir:    http://layout.jquery-dev.net/lib/js
+    #ys_jquery_ui_layout_css_dir:   http://layout.jquery-dev.net/lib/css
+
+    #ys_jquery_ui_layout_js:        [jquery.layout-latest.js]
+    #ys_jquery_ui_layout_css:       [layout-default-latest.css]
+
+    ### For load jquery.layout from localhost
+    ys_jquery_ui_layout_js_dir:   /ysJQueryUIPlugin/js/jquery/layout
+    ys_jquery_ui_layout_css_dir:  /ysJQueryUIPlugin/css
+
+    ys_jquery_ui_layout_js:       [jquery.layout.min.js, jquery.layout.state.js, json2.js]
+    ys_jquery_ui_layout_css:      []
+    ys_jquery_ui_layout_defaults:
+      defaults:
+        minSize:     50
+        applyDefaultStyles: false
+        scrollToBookmarkOnLoad: false
+        paneClass:   ui-layout-pane
+        resizerClass:	ui-state-default
+        togglerClass:	ui-widget-content
+        buttonClass:	button
+        contentSelector:	".content"
+        contentIgnoreSelector:  span
+        togglerLength_open:   35
+        togglerLength_closed:	35
+        hideTogglerOnSlide:	true
+        togglerTip_open:		Close This Pane
+        togglerTip_closed:  Open This Pane
+        resizerTip:         Resize This Pane
+        resizeContent  : true
+        fxName : slide
+        fxSpeed_open : 750
+        fxSpeed_close : 1500
+        fxSettings_open :    {easing  : "easeInQuint" }
+        fxSettings_close :   {easing  : "easeOutQuint"}
+
+
+
+    ###jquery.fg-menu ----------------------------------------------------------
+    ### For load jquery.fg-menu  from http://
+    #ys_jquery_ui_fg_menu_js_dir:
+    #ys_jquery_ui_fg_menu_css_dir:
+
+    #ys_jquery_ui_fg_menu_js:        [jquery.layout-latest.js]
+    #ys_jquery_ui_fg_menu_css:       [layout-default-latest.css]
+
+    ### For load jquery.layout from localhost
+
+    ys_jquery_ui_fg_menu_js_dir:   /ysJQueryUIPlugin/js/jquery/fg-menu
+    ys_jquery_ui_fg_menu_css_dir:  /ysJQueryUIPlugin/css
+    ys_jquery_ui_fg_menu_defaults:
+      showSpeed: 400
+      flyOut: true
+    
+    ys_jquery_ui_fg_menu_js:       [fg.menu.js, jquery.context.menu.js]
+    ys_jquery_ui_fg_menu_css:      [fg.menu.css , jquery.context.menu.css]

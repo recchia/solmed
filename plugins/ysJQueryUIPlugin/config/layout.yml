@@ -1,0 +1,29 @@
+layout:
+  cache: true,
+  addCloseBtn: {'#btnCloseWestId': west ,'#btnCloseEastId':east}
+  addOpenBtn: {'#btnOpenWestId': west ,'#btnOpenEastId': east}
+  addToggleBtn: {'#btnToggleSouthId': south}
+  addPinBtn: {'#btnPinWestId' :'west' ,'#btnPinEastId': east}
+  allowOverflow: ''
+  north:
+    size: 54
+  south:  []
+  west:   []
+  east:
+    initClosed: true
+  center: []
+
+layoutkey:
+  cache: true,
+  addCloseBtn: {'#btnCloseWestId': west ,'#btnCloseEastId':east}
+  addOpenBtn: {'#btnOpenWestId': west ,'#btnOpenEastId': east}
+  addToggleBtn: {'#btnToggleSouthId': south}
+  addPinBtn: {'#btnPinWestId' :'west' ,'#btnPinEastId': east}
+  allowOverflow: 'north'
+  north:
+    size: 54
+  south:  []
+  west:   []
+  east:
+    initClosed: true
+  center: []

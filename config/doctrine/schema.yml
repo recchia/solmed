@@ -1,0 +1,177 @@
+categoria:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    descripcion:
+      type: string(80)
+      notnull: true
+    activo:
+      type: boolean
+  indexes:
+    IX_categoria_1:
+      fields: [descripcion]
+      type: unique
+marca:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    descripcion:
+      type: string(80)
+      notnull: true
+    activo:
+      type: boolean
+  indexes:
+    IX_marca_1:
+      fields: [descripcion]
+      type: unique
+departamento:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer
+      notnull: true
+      autoincrement: true
+    descripcion:
+      type: string(80)
+      notnull: true
+    activo:
+      type: boolean
+  indexes:
+    IX_departamento_1:
+      fields: [descripcion]
+      type: unique
+articulo:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    descripcion:
+      type: string(80)
+      notnull: true
+    categoria_id:
+      type: integer(4)
+      notnull: true
+    marca_id:
+      type: integer(4)
+      notnull: true
+    fecha_vencimiento:
+      type: date
+  relations:
+    categoria:
+      local: categoria_id
+      foreign: id
+    marca:
+      local: marca_id
+      foreign: id
+solicitud:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    departamento_id:
+      type: integer
+    sf_guard_user_id:
+      type: integer(4)
+    aprobada:
+      type: boolean
+      default: false
+    predespachada:
+      type: boolean
+      default: false
+    despachada:
+      type: boolean
+      default: false
+    recibida:
+      type: boolean
+      default: false
+  relations:
+    departamento:
+      local: departamento_id
+      foreign: id
+    User:
+      class: sfGuardUser
+      foreignType: many
+detalle_solicitud:
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    solicitud_id:
+      type: integer(4)
+    articulo_id:
+      type: integer(4)
+    cantidad:
+      type: integer(4)
+  relations:
+    articulo:
+      local: articulo_id
+      foreign: id
+    solicitud:
+      local: solicitud_id
+      foreign: id
+inventario:
+  columns:
+    id:
+      primary: true
+      type: integer
+      notnull: true
+      autoincrement: true
+    articulo_id:
+      type: integer(4)
+    cantidad:
+      type: integer
+      notnull: true
+    fecha_vencimiento:
+      type: date
+      notnull: true
+    departamento_id:
+      type: integer
+  relations:
+    articulo:
+      local: articulo_id
+      foreign: id
+    departamento:
+      local: departamento_id
+      foreign: id
+Profile:
+  columns:
+    sf_guard_user_id: integer(4)
+    cedula: string(8)
+    nombres: string(255)
+    apellidos: string(255)
+    email: string(255)
+    departamento_id: integer
+  relations:
+    User:
+      class: sfGuardUser
+      foreignType: one
+    departamento:
+      local: departamento_id
+      foreign: id

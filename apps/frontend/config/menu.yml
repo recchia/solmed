@@ -1,0 +1,152 @@
+## YAML Template.
+principal:
+  node1:
+    id: node1
+    icon: home
+    value: Página de Inicio
+    url: '<?php echo url_for('@homepage') ?>'
+  node2:
+    id: node2
+    icon: locked
+    value: Salir del Sistema
+    actions: logout('<?php echo url_for('@sf_guard_signout') ?>')
+
+solicitudes:
+  node1:
+    id: node1
+    value: Nueva Solicitud
+    url: '<?php echo url_for('solicitud/new') ?>'
+    icon: pencil
+    credentials: [[admin, userc]]
+  node2:
+    id: node2
+    value: Consultar Solicitud
+    url: '<?php echo url_for('solicitud/index') ?>'
+    icon: search
+    credentials: [[admin, userc, director, user, gerente]]
+  node3:
+    id: node3
+    value: Aprobar Solicitud
+    url: '<?php echo url_for('solicitud/ListPendientes') ?>'
+    icon: check
+    credentials: [[admin, director]]
+  node4:
+    id: node4
+    value: Pre Despachar Solicitud
+    url: '<?php echo url_for('solicitud/ListPrependientes') ?>'
+    icon: cart
+    credentials: [[admin, gerente]]
+  node5:
+    id: node5
+    value: Despachar Solicitud
+    url: '<?php echo url_for('solicitud/ListPredespachar') ?>'
+    icon: extlink
+    credentials: [[admin, gerente, user]]
+  node6:
+    id: node6
+    value: Recibir Solicitud
+    url: '<?php echo url_for('solicitud/ListRecibir') ?>'
+    icon: circle-check
+    credentials: [[admin, director, userc]]
+
+materiales:
+  node1:
+    id: node1
+    value: Administrar Categorias
+    url: '<?php echo url_for('categorias/index') ?>'
+    icon: wrench
+    credentials: [[admin, gerente, user]]
+  node2:
+    id: node2
+    value: Administrar Presentación
+    url: '<?php echo url_for('marcas/index') ?>'
+    icon: wrench
+    credentials: [[admin, gerente, user]]
+  node3:
+    id: node3
+    value: Administrar Artículos
+    url: '<?php echo url_for('articulos/index') ?>'
+    icon: wrench
+    credentials: [[admin, gerente, user]]
+  node4:
+    id: node4
+    value: Administrar Inventario
+    url: '<?php echo url_for('inventario/index') ?>'
+    icon: wrench
+    credentials: [[admin, gerente, user, director, userc]]
+
+herramientas:
+  node1:
+    id: node1
+    value: Administrar Usuarios
+    url: '<?php echo sfProjectConfiguration::getActive()->generateBackendUrl('inicio') ?>'
+    icon: wrench
+    credentials: [admin]
+  node2:
+    id: node2
+    value: Administrar Grupos
+    url: '<?php echo sfProjectConfiguration::getActive()->generateBackendUrl('grupo') ?>'
+    icon: wrench
+    credentials: [admin]
+  node3:
+    id: node3
+    value: Administrar Permisos
+    url: '<?php echo sfProjectConfiguration::getActive()->generateBackendUrl('permiso') ?>'
+    icon: wrench
+    credentials: [admin]
+  node4:
+    id: node4
+    value: Administrar Departamentos
+    url: '<?php echo sfProjectConfiguration::getActive()->generateBackendUrl('departamento') ?>'
+    icon: wrench
+    credentials: [admin]
+  node5:
+    id: node5
+    value: Cambiar Contraseña
+    url: 
+    icon: person
+    actions: $(this).click(function(){$('#dialog-form').dialog('open');})
+
+
+myMenuIndex:
+  node1:
+    id: node1
+    icon: disk
+    value: Value node1
+    actions: myJsFunction('<?php echo url_for('jqueryui_demo/dialog') ?>')
+  node2:
+    icon: disk
+    id: node2
+    value: Value node2
+
+flyoutMenu:
+  node1:
+    id: node1
+    value: Value node1
+    items:
+      node1_1:
+        id : node11
+        value:  Value node1.11111
+        items:
+          node1_1_1:
+            id: node111
+            value:  Value node111
+            items:
+              node1_1_1_1 :
+                icon: disk
+                id: node1111
+                url: '<?php echo url_for('jqueryui_demo/dialog') ?>'
+                value:  Value node1.1.1.1
+      node1_2:
+        icon: disk
+        id: node12,
+        value:  Value node1.2
+        url: http://www.google.com
+  separator1:
+    icon: disk
+    type: separator
+  node2:
+    id: node2
+    icon: disk
+    credentials: admin
+    value: Value node2

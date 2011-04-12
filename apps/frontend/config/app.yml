@@ -1,0 +1,38 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+prod:
+  url_absoluta: http://solmed/backend.php
+
+dev:
+  url_absoluta: http://solmed/backend_dev.php
+
+all:
+  sf_guard_plugin:
+    success_signin_url: homepage
+    success_signout_url: homepage
+    
+  .ys_jquery_revolutions_plugins:
+    ys_jquery_path: /ysJQueryRevolutionsPlugin/js/jquery/jquery-1.3.2.min.js
+    ### Uses structured configuration if you use plugins.
+    ys_jquery_web_dir: ysJQueryRevolutionsPlugin
+    ys_jquery_js_dir:  jquery
+    ys_jquery_core: jquery-1.3.2.min.js
+    ys_jquery_plugins_folder: plugins
+    ys_jquery_js_folder:  js
+    ys_jquery_css_folder: css
+    ys_jquery_images_folder: images
+    path_separattor:       '/'
+
+  .ys_jquery_ui_plugins:
+    ### For load from jquery.ui localhost
+    ys_jquery_ui_web_dir:         /ysJQueryUIPlugin    #default /ysJqueryUIPlugin
+    ys_jquery_ui_theme_dir:       /ysJQueryUIPlugin/css/themes          #default /css/themes
+    ys_jquery_ui_js_dir:          /js/jquery/ui        #default /js/jquery/ui
+    ys_jquery_ui_theme:           humanity              #default ui-lightness
+    ys_jquery_ui_i18n_dir:        i18n                 #default /i18n
+    ys_jquery_ui_theme_rolller:   /ysJQueryUIPlugin/js/jquery/themeswitchertool.js
+    ###jquery.ui.core
+    ys_jquery_ui_core_js:         [ui.core.js]
+    ys_jquery_ui_core_css:        [jquery-ui-1.7.3.custom.css]

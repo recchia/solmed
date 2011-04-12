@@ -1,0 +1,78 @@
+menu:
+  node1:
+    id: node1
+    value: Value node1
+    actions: myJsFunction('<?php echo url_for('jqueryui_demo/dialog') ?>')
+    items:
+      node1_1:
+        id : node11
+        value:  Value node1.11111
+        items:
+          node1_1_1:
+            id: node111
+            icon: disk
+            actions: {click: alert('Hello world')}
+            value:  Value node111
+            items:
+              node1_1_1_1 :
+                id: node1111
+                icon: disk
+                url: '<?php echo url_for('jqueryui_demo/dialog') ?>'
+                actions: {click: alert('Hello world')}
+                value:  Value node1.1.1.1
+      node1_2:
+        id: node12,
+        icon: disk
+        value:  Value node1.2
+        url: http://www.google.com
+  separator1:
+    icon: disk
+    type: separator
+  node2:
+    id: node2
+    url: '<?php echo url_for('jqueryui_demo/dialog') ?>'
+    icon: pencil
+    value: Value node2
+
+myMenuIndex:
+  node1:
+    id: node1
+    icon: disk
+    value: Value node1
+    actions: myJsFunction('<?php echo url_for('jqueryui_demo/dialog') ?>')
+  node2:
+    icon: disk
+    id: node2
+    value: Value node2
+
+flyoutMenu:
+  node1:
+    id: node1
+    value: Value node1
+    items:
+      node1_1:
+        id : node11
+        value:  Value node1.11111
+        items:
+          node1_1_1:
+            id: node111
+            value:  Value node111
+            items:
+              node1_1_1_1 :
+                icon: disk
+                id: node1111
+                url: '<?php echo url_for('jqueryui_demo/dialog') ?>'
+                value:  Value node1.1.1.1
+      node1_2:
+        icon: disk
+        id: node12,
+        value:  Value node1.2
+        url: http://www.google.com
+  separator1:
+    icon: disk
+    type: separator
+  node2:
+    id: node2
+    icon: disk
+    credentials: admin
+    value: Value node2

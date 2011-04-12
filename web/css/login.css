@@ -1,0 +1,107 @@
+html, body {
+    background-color: #FFFFFF;
+    color: #3F3731;
+    height: 100%;
+    text-align: center;
+}
+#wrapper {
+    background-color: #F1EBDF;
+    font-family: "Trebuchet MS","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 8pt;
+    min-height: 97%;
+    height: auto !important;
+    height: 97%;
+    width: 100%;
+    margin: 0 auto -2em;
+    text-align: left;
+}
+#content
+{
+   position:fixed;
+   top:50%;
+   left:50%;
+   margin-top:-100px;
+   margin-left:-150px;
+   height:180px;
+   width:300px;
+   padding-top: 5px;
+   padding-left: 10px;
+   border:1px solid #CDC3B7;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+   background-color: #ffffff;
+   font-family:Verdana;
+}
+#push {
+    height: 2em;
+    clear: left;
+    text-align: center;
+}
+#footer {
+    background-color: #F1EBDF;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    height: 2em;
+    clear: left;
+    border: 1px solid #CCCCCC;
+    margin: 0 30px 8px 30px;
+    text-align: center;
+    font-size: 8pt;
+    padding-top: 4px;
+}
+label{
+    display: block;
+    color: #3F3731;
+    margin: 8px 2px 2px 0;
+}
+input {
+    background-color: #F1EBDF;
+    color: #666666;
+    border: 1px solid #CDC3B7;
+    width: 260px;
+}
+
+input:focus {
+    background-color: #F9F6EF;
+    color: #A46313;
+    border: 1px solid #F5AD66;
+}
+
+.boton{
+    background-color: #F1EBDF;
+    color: #3F3731;
+    border: 1px solid #CDC3B7;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width: 80px;
+    height: 26px;
+    padding-bottom: 4px;
+}
+
+.boton:hover {
+    background-color: #F9F6EF;
+    color: #A46313;
+    border: 1px solid #F5AD66;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width: 80px;
+    height: 26px;
+    cursor: pointer;
+}
+
+a {
+    color: #3F3731;
+}
+
+a:hover {
+    color: #A46313;
+}
+
+p {
+    color: red;
+    margin: 0;
+}

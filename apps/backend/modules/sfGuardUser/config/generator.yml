@@ -1,0 +1,22 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    config:
+      form:
+        class: sfGuardUserAdminForm
+        display:
+          "NONE":                   [username, password, password_again, Datos Personales]
+      edit:
+        title: Editar usuario "%%username%%"
+      new:
+        title: Nuevo Usuario
+      list:
+        title: Usuarios del Sistema
+        display: [=username, last_login]
+        fields:
+          username: { label: "Login de Usuario" }
+          last_login: { label: "Último ingreso" }
+          updated_at: { label: "Última actualización" }
+        object_actions:
+          _edit: { label: Editar }
+          _delete: { label: Eliminar }

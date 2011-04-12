@@ -1,0 +1,28 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    config:
+      edit:
+        title: Editar grupo "%%name%%"
+        fields:
+          name: { label: "Nombre" }
+          description: { label: "Descripción" }
+          users_list: { label: "Usuarios" }
+          permissions_list: { label: "Permisos" }
+      new:
+        title: Nuevo Grupo
+        fields:
+          name: { label: "Nombre" }
+          description: { label: "Descripción" }
+          users_list: { label: "Usuarios" }
+          permissions_list: { label: "Permisos" }
+      list:
+        title: Grupos del Sistema
+        fields:
+          name: { label: "Nombre del Grupo" }
+          description: { label: "Descripción" }
+          users_list: { label: "Usuarios" }
+          permissions_list: { label: "Permisos" }
+        object_actions:
+          _edit: { label: Editar }
+          _delete: { label: Eliminar }

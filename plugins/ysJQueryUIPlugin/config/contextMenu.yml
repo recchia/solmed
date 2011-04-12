@@ -1,0 +1,55 @@
+contextMenu:
+  node1:
+    id : node1
+    value:  Value node1
+    icon:  newwin
+    url:  'http://www.google.com'
+    actions:  'myAlertFuntion()'
+  node11:
+    id:  node11
+    icon:  pencil
+    value:  'Value node1.1'
+    actions:  { click   : "alert('Hello world')"}
+  separator1: { type   :  separator}
+  node12   :
+    id   :  node12
+    icon   :  disk
+    value   :   Value node1.2
+    url   :  http://www.google.com
+
+
+myContextMenu:
+  support_to:
+    '#myList UL LI': my_function2
+  edit:
+    id : edit
+    value:  Edit
+    icon:  pencil
+    credentials: [[ admin, superuser ]]
+  separator1: { type   :  separator}
+  cut:
+    id:  cut
+    icon:  scissors
+    value:  Cut
+  copy:
+    id:  copy
+    icon:  document
+    value:  Copy
+  paste:
+    id:  paste
+    icon:  clipboard
+    value:  Paste
+    actions:  { click   : "alert('Hello world')"}
+  delete:
+    id:  delete
+    icon:  disk
+    value:  close
+    credentials: [admin, superuser]
+    actions:  my_alert_function()
+  separator2: { type   :  separator}
+  quit:
+    id:  quit
+    icon:  extlink
+    value:   Quit
+    target: center
+    url:  http://www.google.com

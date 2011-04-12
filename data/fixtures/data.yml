@@ -283,7 +283,7 @@ sfGuardUser:
     username: alimongi
     algorithm: sha1
     salt: 4b2e2a8c6fb4874028e07a9878ef2c29
-    password: 299be5e020d18c2d63e767cfd7680ccffb4e4ad8
+    password: 123456
     is_active: true
     is_super_admin: false
     last_login: '2011-04-01 13:31:16'
@@ -293,7 +293,7 @@ sfGuardUser:
     username: directorcaricuao
     algorithm: sha1
     salt: 7afd762ba097153e41797a89e36306b3
-    password: 09238c735bc4760f58cce36a66dd40e7e6c5682c
+    password: 123456
     is_active: true
     is_super_admin: false
     last_login: '2011-03-29 17:29:37'
@@ -303,7 +303,7 @@ sfGuardUser:
     username: analistacaricuao
     algorithm: sha1
     salt: 54592339dd6aaf7f0d237708875834a7
-    password: 7c79fa835d15f247f1f9065ae962e44f7ceba5cd
+    password: 123465
     is_active: true
     is_super_admin: false
     last_login: '2011-03-29 18:19:53'
@@ -313,7 +313,7 @@ sfGuardUser:
     username: directorbarinas
     algorithm: sha1
     salt: 4a9cd65966fe6baf5e59d08653987095
-    password: 4f81c7a64cd4da46b72ea59e24357e4d3e689b95
+    password: 123456
     is_active: true
     is_super_admin: false
     last_login: '2011-03-28 16:40:06'
@@ -323,7 +323,7 @@ sfGuardUser:
     username: analistabarinas
     algorithm: sha1
     salt: 8fe5ab4c3312b30a16e2861c0692c176
-    password: 80c6ace3f22fe8905585bddab7abc29dba16c4ca
+    password: 123456
     is_active: true
     is_super_admin: false
     last_login: '2011-03-29 17:11:02'
@@ -333,7 +333,7 @@ sfGuardUser:
     username: gerente
     algorithm: sha1
     salt: cc35b987c763ce217c145bc36e1a0b54
-    password: 77e1cd336e4f2d077d0387f480356b8f03599962
+    password: 123465
     is_active: true
     is_super_admin: false
     last_login: '2011-03-29 18:18:20'
@@ -343,7 +343,7 @@ sfGuardUser:
     username: analistasede
     algorithm: sha1
     salt: 2168d0bc407db44b45663fa36d7e20f6
-    password: 1566bbffe20caa57bc947217836f94a46bac90b1
+    password: 123456
     is_active: true
     is_super_admin: false
     last_login: '2011-03-29 18:18:56'

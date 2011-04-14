@@ -19,4 +19,15 @@ class mainActions extends sfActions
   {
     
   }
+  
+  public function executeCambiarPasssword(sfWebRequest $request)
+  {
+      if($request->isXmlHttpRequest()) {
+          $response = $this->getUser()->cambiarPassword($this->getUser()->getGuardUser(),$request->getParameter('current_pass'),$request->getParameter('new_pass'),$request->getParameter('confirm'));
+          $msj = "{status: '{$response[0]}', mensaje: '{$response[1]}'}";
+          sfConfig::set('sf_web_debug', false);
+          $this->getResponse()->setContentType('application/json');
+          return $this->renderText($msj);
+      }
+  }
 }

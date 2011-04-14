@@ -71,10 +71,11 @@
                 <?php echo $sf_content ?>
             </div>
             <div id="dialog-form" title="Cambiar Contraseña">
-                <form>
+                <p class="validateTips">Todos los campos son obligatorios.</p>
+                <form id="change-password" method="post" action="<?php echo url_for('main/CambiarPasssword')?>">
                 <fieldset>
-                        <label for="old_pass">Contraseña Anterior</label>
-                        <input type="password" name="old_pass" id="old_pass" class="text ui-widget-content ui-corner-all" />
+                        <label for="current_pass">Contraseña Anterior</label>
+                        <input type="password" name="current_pass" id="current_pass" class="text ui-widget-content ui-corner-all" />
                         <label for="new_pass">Nueva Contraseña</label>
                         <input type="password" name="new_pass" id="new_pass" class="text ui-widget-content ui-corner-all" />
                         <label for="confirm">Confirmar Contraseña</label>

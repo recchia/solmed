@@ -116,7 +116,7 @@ html, body {
 #boton_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
 a.link-blanco { color: #FFFFFF; text-decoration: none; font-size: 10pt; font-family: verdana;}
 #lateral span.info {
-    background-color: #E6E6E6;
+    background-color: #F1EBDF;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;

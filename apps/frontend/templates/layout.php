@@ -25,14 +25,14 @@
                 ))  ?>
                 <?php echo ui_menu_init(
                 'solicitud',
-                'Solicitud de Material',
+                'Medicamentos',
                 array(
                 'yml' => $path,
                 'ymlKey' => 'solicitudes'
                 ))  ?>
                 <?php echo ui_menu_init(
                 'materiales',
-                'Administración de Materiales',
+                'Administración de Medicamentos',
                 array(
                 'yml' => $path,
                 'ymlKey' => 'materiales'

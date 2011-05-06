@@ -150,9 +150,36 @@ class solicitudActions extends sfActions
   public function executeRecibir(sfWebRequest $request)
   {
       $this->forward404Unless($this->solicitud = Doctrine::getTable('Solicitud')->find(array($request->getParameter('id'))), sprintf('El objeto solicitado con el id (%s) no existe.', $request->getParameter('id')));
-      //$solicitud->save();
-      //$this->getUser()->setFlash('notice','La solicitud ('.$request->getParameter('id').')ha sido Recibida con Éxito');
-      //$this->redirect('solicitud/ListRecibir');
+      $detalles = $this->solicitud->getDetalleSolicitud();
+      $this->form = new recibirForm();
+      $dptoId = $this->solicitud->getDepartamentoId();
+      $this->form->setDefault('solicitud_id', $request->getParameter('id'));
+      $i = 1;
+      $this->cantidad = count($detalles);
+      foreach ($detalles as $detalle) {
+          $subForm = new inventarioForm();
+          $subForm->setDefaults(array('articulo_id' => $detalle->getArticuloId(),'medicamento' => $detalle->getArticulo(),'cantidad' => $detalle->getCantidad(),'departamento_id' => $dptoId));
+          $this->form->embedForm($i, $subForm);
+          $i++;
+      }
+  }
+  
+  public function executeCargarInventario(sfWebRequest $request)
+  {
+      $this->solicitud = Doctrine::getTable('Solicitud')->find(array($request->getParameter('solicitud_id')));
+      $cantidad = count($this->solicitud->getDetalleSolicitud());
+      for ($index = 1; $index <= $cantidad; $index++) {
+          $datos = $request->getParameter($index);
+          $inventario = new inventario();
+          $inventario->articulo_id = $datos['articulo_id'];
+          $inventario->cantidad = $datos['cantidad'];
+          $inventario->departamento_id = $datos['departamento_id'];
+          $inventario->fecha_vencimiento = $datos['fecha_vencimiento']['year'].'-'.$datos['fecha_vencimiento']['month'].'-'.$datos['fecha_vencimiento']['day'];
+          $inventario->save();
+      }
+      $this->solicitud->recibida = true;
+      $this->solicitud->save();
+      $this->getUser()->setFlash('notice', 'Los medicamentos han sido cargados en el inventario');
   }
 
   public function executeImprimir(sfWebRequest $request)
@@ -162,4 +189,5 @@ class solicitudActions extends sfActions
       $this->solicitud = $solicitud;
       $this->setLayout(false);
   }
+  
 }

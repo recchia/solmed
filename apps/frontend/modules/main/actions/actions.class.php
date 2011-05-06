@@ -17,7 +17,6 @@ class mainActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    
   }
   
   public function executeCambiarPasssword(sfWebRequest $request)
@@ -30,4 +29,5 @@ class mainActions extends sfActions
           return $this->renderText($msj);
       }
   }
+  
 }

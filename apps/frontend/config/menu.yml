@@ -48,6 +48,12 @@ solicitudes:
     url: '<?php echo url_for('solicitud/ListRecibir') ?>'
     icon: circle-check
     credentials: [[admin, director, userc]]
+  node7:
+    id: node7
+    value: Entregar Medicamentos
+    url: '<?php echo url_for('solicitud/ListRecibir') ?>'
+    icon: suitcase
+    credentials: [[admin, director, userc]]
 
 materiales:
   node1:

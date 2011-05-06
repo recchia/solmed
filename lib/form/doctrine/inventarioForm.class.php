@@ -10,9 +10,19 @@
  */
 class inventarioForm extends BaseinventarioForm
 {
-  public function configure()
-  {
-      $this->widgetSchema['fecha_vencimiento'] = new sfWidgetFormJQueryDate(array('culture' => 'es', 'config' => '{ changeYear: true, changeMonth: true, showButtonPanel: true, yearRange: \'1900:2000\' }'));
-      $this->widgetSchema['departamento_id'] = new sfWidgetFormInputHidden();
-  }
+    public function configure() {
+        $today = array(
+            'year' => date('Y'),
+            'month' => date('n'),
+            'day' => date('j')
+        );
+        $years = range(date('Y'), date('Y') + 4);
+        $this->setWidget('articulo_id', new sfWidgetFormInputHidden());
+        $this->setWidget('medicamento', new sfWidgetFormInput());
+        $this->widgetSchema['medicamento']->setAttribute('readonly', 'readonly');
+        $this->widgetSchema['medicamento']->setAttribute('size', '40');
+        $this->widgetSchema['fecha_vencimiento'] = new sfWidgetFormDate(array('format' => '%day%/%month%/%year%', 'default' => $today, 'years' => array_combine($years, $years)));
+        $this->widgetSchema['departamento_id'] = new sfWidgetFormInputHidden();
+        $this->widgetSchema['cantidad']->setAttribute('readonly', 'readonly');
+    }
 }

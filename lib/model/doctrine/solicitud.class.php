@@ -12,10 +12,27 @@
  */
 class solicitud extends Basesolicitud
 {
-    public function updateInventario() {
-        $detalles = $this->getDetalleSolicitud();
-        foreach ($detalles as $detalle) {
-            echo $detalle->getArticulo().' Cantidad: '.$detalle->getCantidad();
+    public function updateInventario(sfWebRequest $request) {
+        $conn = $this->getTable()->getConnection();
+        $conn->beginTransaction();
+        try {
+            $cantidad = count($this->getDetalleSolicitud());
+            for ($index = 1; $index <= $cantidad; $index++) {
+                $datos = $request->getParameter($index);
+                $inventario = new inventario();
+                $inventario->articulo_id = $datos['articulo_id'];
+                $inventario->cantidad = $datos['cantidad'];
+                $inventario->departamento_id = $datos['departamento_id'];
+                $inventario->fecha_vencimiento = $datos['fecha_vencimiento']['year'] . '-' . $datos['fecha_vencimiento']['month'] . '-' . $datos['fecha_vencimiento']['day'];
+                $inventario->save();
+            }
+            $this->recibida = true;
+            $this->save();
+            $conn->commit();
+            return true;
+        } catch (Exception $e) {
+            $conn->rollback();
+            throw $e;
         }
     }
 }

@@ -167,19 +167,9 @@ class solicitudActions extends sfActions
   public function executeCargarInventario(sfWebRequest $request)
   {
       $this->solicitud = Doctrine::getTable('Solicitud')->find(array($request->getParameter('solicitud_id')));
-      $cantidad = count($this->solicitud->getDetalleSolicitud());
-      for ($index = 1; $index <= $cantidad; $index++) {
-          $datos = $request->getParameter($index);
-          $inventario = new inventario();
-          $inventario->articulo_id = $datos['articulo_id'];
-          $inventario->cantidad = $datos['cantidad'];
-          $inventario->departamento_id = $datos['departamento_id'];
-          $inventario->fecha_vencimiento = $datos['fecha_vencimiento']['year'].'-'.$datos['fecha_vencimiento']['month'].'-'.$datos['fecha_vencimiento']['day'];
-          $inventario->save();
-      }
-      $this->solicitud->recibida = true;
-      $this->solicitud->save();
-      $this->getUser()->setFlash('notice', 'Los medicamentos han sido cargados en el inventario');
+      if($this->solicitud->updateInventario($request)) {
+          $this->getUser()->setFlash('notice', 'Los medicamentos han sido cargados en el inventario');
+      } 
   }
 
   public function executeImprimir(sfWebRequest $request)

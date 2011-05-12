@@ -21,6 +21,11 @@ class solicitudActions extends sfActions
     $this->form = new SolicitudForm();
     $this->form->setDefault('sf_guard_user_id', $this->getUser()->getGuardUser()->getProfile()->getSfGuardUserId());
   }
+  
+  public function executeShow(sfWebRequest $request)
+  {
+    $this->forward404Unless($this->solicitud = Doctrine::getTable('Solicitud')->find(array($request->getParameter('id'))), sprintf('Object solicitud does not exist (%s).', $request->getParameter('id')));
+  }
 
   public function executeCreate(sfWebRequest $request)
   {

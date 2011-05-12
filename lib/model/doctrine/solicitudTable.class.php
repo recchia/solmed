@@ -10,7 +10,8 @@ class solicitudTable extends Doctrine_Table
         } else {
             $q->where('s.aprobada = 1');
         }
-        $q->andWhere('s.recibida = 0');
+        $q->andWhere('s.recibida = 0')->andWhere('deleted_at IS NULL');;
+        
         return $q->execute();
     }
 }

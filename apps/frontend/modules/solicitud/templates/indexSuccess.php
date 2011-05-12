@@ -15,6 +15,7 @@
       <th>Nro.</th>
       <th></th>
       <th></th>
+      <th></th>
       <th>Fecha Solicitud</th>
       <th>Departamento</th>
       <th>Fecha Actualización</th>
@@ -28,6 +29,7 @@
     <?php foreach ($solicituds as $solicitud): ?>
     <tr>
       <td><?php echo $solicitud->getId() ?></td>
+      <td><a href="<?php echo url_for('solicitud/show?id='.$solicitud->getId()) ?>"><?php echo image_tag('glass.png', array('border' => 0, 'Alt' => 'Ver Solicitud', 'title' => 'Ver Solicitud'))?></a></td>
       <td><a href="<?php echo url_for('solicitud/imprimir?id='.$solicitud->getId()) ?>" target="_blank"><?php echo image_tag('printer.png', array('border' => 0, 'Alt' => 'Imprimir Solicitud', 'title' => 'Imprimir Solicitud')) ?></a></td>
       <?php if($solicitud->getAprobada() == 0):?>
       <td><a href="<?php echo url_for('solicitud/edit?id='.$solicitud->getId()) ?>"><?php echo image_tag('note_edit.png', array('border' => 0, 'Alt' => 'Editar Solicitud', 'title' => 'Editar Solicitud')) ?></a></td>

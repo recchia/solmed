@@ -3,7 +3,7 @@
 
 # default values
 prod:
-  url_absoluta: http://solmed/backend.php
+  url_absoluta: http://inass.solmed/backend.php
 
 dev:
   url_absoluta: http://solmed/backend_dev.php

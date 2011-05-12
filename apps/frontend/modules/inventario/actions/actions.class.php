@@ -12,9 +12,7 @@ class inventarioActions extends sfActions
 {
   public function executeIndex(sfWebRequest $request)
   {
-    $this->inventarios = Doctrine::getTable('Inventario')
-      ->createQuery('a')
-      ->execute();
+    $this->inventarios = Doctrine::getTable('Inventario')->getListado($this->getUser()->getGuardUser()->getProfile()->getDepartamentoId());
   }
 
   public function executeNew(sfWebRequest $request)

@@ -6,6 +6,7 @@
       <th>Artículo</th>
       <th>Cantidad</th>
       <th>Fecha de Vencimiento</th>
+      <th>Unidad</th>
     </tr>
   </thead>
   <tbody>
@@ -14,6 +15,7 @@
       <td><?php echo $inventario->getArticulo() ?></td>
       <td><?php echo $inventario->getCantidad() ?></td>
       <td><?php echo date('d-m-Y', strtotime($inventario->getFechaVencimiento())) ?></td>
+      <td><?php echo $inventario->getDepartamento() ?></td>
     </tr>
     <?php endforeach; ?>
   </tbody>

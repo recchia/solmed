@@ -4,7 +4,7 @@
 # default values
 #all:
 prod:
-  url_absoluta: http://solmed
+  url_absoluta: http://inass.solmed
 
 dev:
   url_absoluta: http://solmed/frontend_dev.php

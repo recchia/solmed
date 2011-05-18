@@ -48,236 +48,236 @@ Profile:
     apellidos: Sede
     email: analistas@inass.gob.ve
     departamento: departamento_1
-articulo:
-  articulo_1:
-    descripcion: 'Amoxicilina 500 Mg'
-    categoria: categoria_1
-    marca: marca_1
-    fecha_vencimiento: null
-    created_at: '2010-04-07 11:10:38'
-    updated_at: '2011-03-14 14:29:24'
-    deleted_at: null
-  articulo_2:
-    descripcion: 'Azitromicina 500 Mg'
-    categoria: categoria_1
-    marca: marca_2
-    fecha_vencimiento: '2011-10-13'
-    created_at: '2010-04-09 00:28:41'
-    updated_at: '2011-03-14 14:30:25'
-    deleted_at: null
-  articulo_3:
-    descripcion: 'Levofloxacina 500 Mg'
-    categoria: categoria_1
-    marca: marca_2
-    fecha_vencimiento: '2012-02-03'
-    created_at: '2010-04-11 14:36:12'
-    updated_at: '2011-03-14 14:31:20'
-    deleted_at: null
-  articulo_4:
-    descripcion: 'Cefadroxilo 500 Mg'
-    categoria: categoria_1
-    marca: marca_1
-    fecha_vencimiento: '2011-04-03'
-    created_at: '2010-04-11 14:36:32'
-    updated_at: '2011-03-14 14:32:09'
-    deleted_at: null
-  articulo_5:
-    descripcion: 'Luteina 6 Mg'
-    categoria: categoria_2
-    marca: marca_1
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:37:38'
-    updated_at: '2011-03-14 14:34:03'
-    deleted_at: null
-  articulo_6:
-    descripcion: 'Travaprost 0.004%'
-    categoria: categoria_2
-    marca: marca_4
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:38:02'
-    updated_at: '2011-03-14 14:37:15'
-    deleted_at: null
-  articulo_7:
-    descripcion: 'Hidroxipropil Metil Celulosa 0.3 %'
-    categoria: categoria_2
-    marca: marca_4
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:38:29'
-    updated_at: '2011-03-14 14:38:04'
-    deleted_at: null
-  articulo_8:
-    descripcion: 'Meleato de Timolol 0.5% Mg'
-    categoria: categoria_2
-    marca: marca_4
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:38:45'
-    updated_at: '2011-03-14 14:39:47'
-    deleted_at: null
-  articulo_9:
-    descripcion: 'Clindamicina 600 Mg'
-    categoria: categoria_1
-    marca: marca_3
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:39:09'
-    updated_at: '2011-03-14 14:40:37'
-    deleted_at: null
-  articulo_10:
-    descripcion: 'Levofloxacina 500 Mg'
-    categoria: categoria_1
-    marca: marca_3
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:39:35'
-    updated_at: '2011-03-14 14:41:28'
-    deleted_at: null
-  articulo_11:
-    descripcion: 'Ciprofloxacina 500 Mg'
-    categoria: categoria_1
-    marca: marca_2
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:39:53'
-    updated_at: '2011-03-14 14:42:28'
-    deleted_at: null
-  articulo_12:
-    descripcion: 'Dextrosa 5% Glucofisiologica N4'
-    categoria: categoria_3
-    marca: marca_5
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:40:42'
-    updated_at: '2011-03-14 15:06:18'
-    deleted_at: null
-  articulo_13:
-    descripcion: 'Dextrosa 5% Glucosada N1'
-    categoria: categoria_3
-    marca: marca_5
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:40:57'
-    updated_at: '2011-03-14 15:07:01'
-    deleted_at: null
-  articulo_14:
-    descripcion: 'Isotonica Cloruro de Sodio N16'
-    categoria: categoria_3
-    marca: marca_5
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:41:15'
-    updated_at: '2011-03-14 15:07:42'
-    deleted_at: null
-  articulo_15:
-    descripcion: 'Suero Oral'
-    categoria: categoria_3
-    marca: marca_6
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:41:43'
-    updated_at: '2011-03-14 15:10:18'
-    deleted_at: null
-  articulo_16:
-    descripcion: 'Glimepirida 2 Mg'
-    categoria: categoria_4
-    marca: marca_2
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:42:10'
-    updated_at: '2011-03-14 15:11:15'
-    deleted_at: null
-  articulo_17:
-    descripcion: 'Glimepirida 4 Mg'
-    categoria: categoria_4
-    marca: marca_2
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:42:32'
-    updated_at: '2011-03-14 15:11:55'
-    deleted_at: null
-  articulo_18:
-    descripcion: 'Metformina 500 Mg'
-    categoria: categoria_4
-    marca: marca_7
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:42:48'
-    updated_at: '2011-03-14 15:14:30'
-    deleted_at: null
-  articulo_19:
-    descripcion: 'Glibemclamida 5 Mg'
-    categoria: categoria_4
-    marca: marca_7
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:43:34'
-    updated_at: '2011-03-14 15:15:07'
-    deleted_at: null
-  articulo_20:
-    descripcion: 'Glicazida 80 Mg'
-    categoria: categoria_4
-    marca: marca_2
-    fecha_vencimiento: null
-    created_at: '2010-04-11 14:43:47'
-    updated_at: '2011-03-14 15:15:45'
-    deleted_at: null
-detalle_solicitud:
-  detalle_solicitud_1:
-    solicitud: solicitud_1
-    articulo: articulo_1
-    cantidad: '50'
-  detalle_solicitud_2:
-    solicitud: solicitud_1
-    articulo: articulo_2
-    cantidad: '80'
-  detalle_solicitud_3:
-    solicitud: solicitud_1
-    articulo: articulo_3
-    cantidad: '30'
-  detalle_solicitud_4:
-    solicitud: solicitud_2
-    articulo: articulo_4
-    cantidad: '80'
-  detalle_solicitud_5:
-    solicitud: solicitud_2
-    articulo: articulo_6
-    cantidad: '90'
-  detalle_solicitud_6:
-    solicitud: solicitud_2
-    articulo: articulo_8
-    cantidad: '100'
-  detalle_solicitud_7:
-    solicitud: solicitud_3
-    articulo: articulo_16
-    cantidad: '10'
-  detalle_solicitud_8:
-    solicitud: solicitud_3
-    articulo: articulo_15
-    cantidad: '15'
-  detalle_solicitud_9:
-    solicitud: solicitud_3
-    articulo: articulo_14
-    cantidad: '13'
-  detalle_solicitud_10:
-    solicitud: solicitud_4
-    articulo: articulo_4
-    cantidad: '8'
-  detalle_solicitud_11:
-    solicitud: solicitud_4
-    articulo: articulo_5
-    cantidad: '9'
-  detalle_solicitud_12:
-    solicitud: solicitud_5
-    articulo: articulo_7
-    cantidad: '4'
-  detalle_solicitud_13:
-    solicitud: solicitud_6
-    articulo: articulo_3
-    cantidad: '6'
-  detalle_solicitud_14:
-    solicitud: solicitud_7
-    articulo: articulo_5
-    cantidad: '125'
-  detalle_solicitud_15:
-    solicitud: solicitud_8
-    articulo: articulo_9
-    cantidad: '45'
-  detalle_solicitud_16:
-    solicitud: solicitud_8
-    articulo: articulo_19
-    cantidad: '78'
-  detalle_solicitud_17:
-    solicitud: solicitud_8
-    articulo: articulo_14
-    cantidad: '909'
+#articulo:
+#  articulo_1:
+#    descripcion: 'Amoxicilina 500 Mg'
+#    categoria: categoria_1
+#    marca: marca_1
+#    fecha_vencimiento: null
+#    created_at: '2010-04-07 11:10:38'
+#    updated_at: '2011-03-14 14:29:24'
+#    deleted_at: null
+#  articulo_2:
+#    descripcion: 'Azitromicina 500 Mg'
+#    categoria: categoria_1
+#    marca: marca_2
+#    fecha_vencimiento: '2011-10-13'
+#    created_at: '2010-04-09 00:28:41'
+#    updated_at: '2011-03-14 14:30:25'
+#    deleted_at: null
+#  articulo_3:
+#    descripcion: 'Levofloxacina 500 Mg'
+#    categoria: categoria_1
+#    marca: marca_2
+#    fecha_vencimiento: '2012-02-03'
+#    created_at: '2010-04-11 14:36:12'
+#    updated_at: '2011-03-14 14:31:20'
+#    deleted_at: null
+#  articulo_4:
+#    descripcion: 'Cefadroxilo 500 Mg'
+#    categoria: categoria_1
+#    marca: marca_1
+#    fecha_vencimiento: '2011-04-03'
+#    created_at: '2010-04-11 14:36:32'
+#    updated_at: '2011-03-14 14:32:09'
+#    deleted_at: null
+#  articulo_5:
+#    descripcion: 'Luteina 6 Mg'
+#    categoria: categoria_2
+#    marca: marca_1
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:37:38'
+#    updated_at: '2011-03-14 14:34:03'
+#    deleted_at: null
+#  articulo_6:
+#    descripcion: 'Travaprost 0.004%'
+#    categoria: categoria_2
+#    marca: marca_4
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:38:02'
+#    updated_at: '2011-03-14 14:37:15'
+#    deleted_at: null
+#  articulo_7:
+#    descripcion: 'Hidroxipropil Metil Celulosa 0.3 %'
+#    categoria: categoria_2
+#    marca: marca_4
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:38:29'
+#    updated_at: '2011-03-14 14:38:04'
+#    deleted_at: null
+#  articulo_8:
+#    descripcion: 'Meleato de Timolol 0.5% Mg'
+#    categoria: categoria_2
+#    marca: marca_4
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:38:45'
+#    updated_at: '2011-03-14 14:39:47'
+#    deleted_at: null
+#  articulo_9:
+#    descripcion: 'Clindamicina 600 Mg'
+#    categoria: categoria_1
+#    marca: marca_3
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:39:09'
+#    updated_at: '2011-03-14 14:40:37'
+#    deleted_at: null
+#  articulo_10:
+#    descripcion: 'Levofloxacina 500 Mg'
+#    categoria: categoria_1
+#    marca: marca_3
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:39:35'
+#    updated_at: '2011-03-14 14:41:28'
+#    deleted_at: null
+#  articulo_11:
+#    descripcion: 'Ciprofloxacina 500 Mg'
+#    categoria: categoria_1
+#    marca: marca_2
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:39:53'
+#    updated_at: '2011-03-14 14:42:28'
+#    deleted_at: null
+#  articulo_12:
+#    descripcion: 'Dextrosa 5% Glucofisiologica N4'
+#    categoria: categoria_3
+#    marca: marca_5
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:40:42'
+#    updated_at: '2011-03-14 15:06:18'
+#    deleted_at: null
+#  articulo_13:
+#    descripcion: 'Dextrosa 5% Glucosada N1'
+#    categoria: categoria_3
+#    marca: marca_5
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:40:57'
+#    updated_at: '2011-03-14 15:07:01'
+#    deleted_at: null
+#  articulo_14:
+#    descripcion: 'Isotonica Cloruro de Sodio N16'
+#    categoria: categoria_3
+#    marca: marca_5
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:41:15'
+#    updated_at: '2011-03-14 15:07:42'
+#    deleted_at: null
+#  articulo_15:
+#    descripcion: 'Suero Oral'
+#    categoria: categoria_3
+#    marca: marca_6
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:41:43'
+#    updated_at: '2011-03-14 15:10:18'
+#    deleted_at: null
+#  articulo_16:
+#    descripcion: 'Glimepirida 2 Mg'
+#    categoria: categoria_4
+#    marca: marca_2
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:42:10'
+#    updated_at: '2011-03-14 15:11:15'
+#    deleted_at: null
+#  articulo_17:
+#    descripcion: 'Glimepirida 4 Mg'
+#    categoria: categoria_4
+#    marca: marca_2
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:42:32'
+#    updated_at: '2011-03-14 15:11:55'
+#    deleted_at: null
+#  articulo_18:
+#    descripcion: 'Metformina 500 Mg'
+#    categoria: categoria_4
+#    marca: marca_7
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:42:48'
+#    updated_at: '2011-03-14 15:14:30'
+#    deleted_at: null
+#  articulo_19:
+#    descripcion: 'Glibemclamida 5 Mg'
+#    categoria: categoria_4
+#    marca: marca_7
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:43:34'
+#    updated_at: '2011-03-14 15:15:07'
+#    deleted_at: null
+#  articulo_20:
+#    descripcion: 'Glicazida 80 Mg'
+#    categoria: categoria_4
+#    marca: marca_2
+#    fecha_vencimiento: null
+#    created_at: '2010-04-11 14:43:47'
+#    updated_at: '2011-03-14 15:15:45'
+#    deleted_at: null
+#detalle_solicitud:
+#  detalle_solicitud_1:
+#    solicitud: solicitud_1
+#    articulo: articulo_1
+#    cantidad: '50'
+#  detalle_solicitud_2:
+#    solicitud: solicitud_1
+#    articulo: articulo_2
+#    cantidad: '80'
+#  detalle_solicitud_3:
+#    solicitud: solicitud_1
+#    articulo: articulo_3
+#    cantidad: '30'
+#  detalle_solicitud_4:
+#    solicitud: solicitud_2
+#    articulo: articulo_4
+#    cantidad: '80'
+#  detalle_solicitud_5:
+#    solicitud: solicitud_2
+#    articulo: articulo_6
+#    cantidad: '90'
+#  detalle_solicitud_6:
+#    solicitud: solicitud_2
+#    articulo: articulo_8
+#    cantidad: '100'
+#  detalle_solicitud_7:
+#    solicitud: solicitud_3
+#    articulo: articulo_16
+#    cantidad: '10'
+#  detalle_solicitud_8:
+#    solicitud: solicitud_3
+#    articulo: articulo_15
+#    cantidad: '15'
+#  detalle_solicitud_9:
+#    solicitud: solicitud_3
+#    articulo: articulo_14
+#    cantidad: '13'
+#  detalle_solicitud_10:
+#    solicitud: solicitud_4
+#    articulo: articulo_4
+#    cantidad: '8'
+#  detalle_solicitud_11:
+#    solicitud: solicitud_4
+#    articulo: articulo_5
+#    cantidad: '9'
+#  detalle_solicitud_12:
+#    solicitud: solicitud_5
+#    articulo: articulo_7
+#    cantidad: '4'
+#  detalle_solicitud_13:
+#    solicitud: solicitud_6
+#    articulo: articulo_3
+#    cantidad: '6'
+#  detalle_solicitud_14:
+#    solicitud: solicitud_7
+#    articulo: articulo_5
+#    cantidad: '125'
+#  detalle_solicitud_15:
+#    solicitud: solicitud_8
+#    articulo: articulo_9
+#    cantidad: '45'
+#  detalle_solicitud_16:
+#    solicitud: solicitud_8
+#    articulo: articulo_19
+#    cantidad: '78'
+#  detalle_solicitud_17:
+#    solicitud: solicitud_8
+#    articulo: articulo_14
+#    cantidad: '909'
 sfGuardUser:
   sfGuardUser_1:
     username: alimongi
@@ -482,87 +482,87 @@ departamento:
     created_at: '2011-03-23 16:20:53'
     updated_at: '2011-03-23 16:20:53'
     deleted_at: null
-solicitud:
-  solicitud_1:
-    departamento: departamento_2
-    User: sfGuardUser_3
-    aprobada: true
-    predespachada: true
-    despachada: true
-    recibida: true
-    created_at: '2011-03-23 16:28:31'
-    updated_at: '2011-03-29 17:41:50'
-    deleted_at: null
-  solicitud_2:
-    departamento: departamento_3
-    User: sfGuardUser_5
-    aprobada: true
-    predespachada: true
-    despachada: true
-    recibida: false
-    created_at: '2011-03-23 16:30:03'
-    updated_at: '2011-03-24 18:11:49'
-    deleted_at: null
-  solicitud_3:
-    departamento: departamento_3
-    User: sfGuardUser_5
-    aprobada: true
-    predespachada: false
-    despachada: false
-    recibida: false
-    created_at: '2011-03-23 16:35:11'
-    updated_at: '2011-03-24 15:11:59'
-    deleted_at: null
-  solicitud_4:
-    departamento: departamento_2
-    User: sfGuardUser_3
-    aprobada: false
-    predespachada: false
-    despachada: false
-    recibida: false
-    created_at: '2011-03-24 14:30:23'
-    updated_at: '2011-03-24 14:30:23'
-    deleted_at: null
-  solicitud_5:
-    departamento: departamento_1
-    User: sfGuardUser_7
-    aprobada: true
-    predespachada: true
-    despachada: true
-    recibida: false
-    created_at: '2011-03-24 14:58:26'
-    updated_at: '2011-03-24 17:36:02'
-    deleted_at: null
-  solicitud_6:
-    departamento: departamento_1
-    User: sfGuardUser_7
-    aprobada: true
-    predespachada: true
-    despachada: true
-    recibida: false
-    created_at: '2011-03-24 15:14:52'
-    updated_at: '2011-03-24 15:35:30'
-    deleted_at: null
-  solicitud_7:
-    departamento: departamento_3
-    User: sfGuardUser_5
-    aprobada: false
-    predespachada: false
-    despachada: false
-    recibida: false
-    created_at: '2011-03-24 18:13:52'
-    updated_at: '2011-03-24 18:13:52'
-    deleted_at: null
-  solicitud_8:
-    departamento: departamento_1
-    User: sfGuardUser_1
-    aprobada: false
-    predespachada: false
-    despachada: false
-    recibida: false
-    created_at: '2011-03-29 11:48:09'
-    updated_at: '2011-03-29 11:48:09'
-    deleted_at: null
+#solicitud:
+#  solicitud_1:
+#    departamento: departamento_2
+#    User: sfGuardUser_3
+#    aprobada: true
+#    predespachada: true
+#    despachada: true
+#    recibida: true
+#    created_at: '2011-03-23 16:28:31'
+#    updated_at: '2011-03-29 17:41:50'
+#    deleted_at: null
+#  solicitud_2:
+#    departamento: departamento_3
+#    User: sfGuardUser_5
+#    aprobada: true
+#    predespachada: true
+#    despachada: true
+#    recibida: false
+#    created_at: '2011-03-23 16:30:03'
+#    updated_at: '2011-03-24 18:11:49'
+#    deleted_at: null
+#  solicitud_3:
+#    departamento: departamento_3
+#    User: sfGuardUser_5
+#    aprobada: true
+#    predespachada: false
+#    despachada: false
+#    recibida: false
+#    created_at: '2011-03-23 16:35:11'
+#    updated_at: '2011-03-24 15:11:59'
+#    deleted_at: null
+#  solicitud_4:
+#    departamento: departamento_2
+#    User: sfGuardUser_3
+#    aprobada: false
+#    predespachada: false
+#    despachada: false
+#    recibida: false
+#    created_at: '2011-03-24 14:30:23'
+#    updated_at: '2011-03-24 14:30:23'
+#    deleted_at: null
+#  solicitud_5:
+#    departamento: departamento_1
+#    User: sfGuardUser_7
+#    aprobada: true
+#    predespachada: true
+#    despachada: true
+#    recibida: false
+#    created_at: '2011-03-24 14:58:26'
+#    updated_at: '2011-03-24 17:36:02'
+#    deleted_at: null
+#  solicitud_6:
+#    departamento: departamento_1
+#    User: sfGuardUser_7
+#    aprobada: true
+#    predespachada: true
+#    despachada: true
+#    recibida: false
+#    created_at: '2011-03-24 15:14:52'
+#    updated_at: '2011-03-24 15:35:30'
+#    deleted_at: null
+#  solicitud_7:
+#    departamento: departamento_3
+#    User: sfGuardUser_5
+#    aprobada: false
+#    predespachada: false
+#    despachada: false
+#    recibida: false
+#    created_at: '2011-03-24 18:13:52'
+#    updated_at: '2011-03-24 18:13:52'
+#    deleted_at: null
+#  solicitud_8:
+#    departamento: departamento_1
+#    User: sfGuardUser_1
+#    aprobada: false
+#    predespachada: false
+#    despachada: false
+#    recibida: false
+#    created_at: '2011-03-29 11:48:09'
+#    updated_at: '2011-03-29 11:48:09'
+#    deleted_at: null
 categoria:
   categoria_1:
     descripcion: Antibióticos
@@ -631,14 +631,14 @@ marca:
     created_at: '2010-04-11 14:35:21'
     updated_at: '2011-03-14 14:27:56'
     deleted_at: null
-inventario:
-  inventario_1:
-    articulo: articulo_16
-    cantidad: '20'
-    fecha_vencimiento: '2016-12-17'
-    departamento: departamento_2
-  inventario_2:
-    articulo: articulo_16
-    cantidad: '30'
-    fecha_vencimiento: '2016-02-18'
-    departamento: departamento_2
+#inventario:
+#  inventario_1:
+#    articulo: articulo_16
+#    cantidad: '20'
+#    fecha_vencimiento: '2016-12-17'
+#    departamento: departamento_2
+#  inventario_2:
+#    articulo: articulo_16
+#    cantidad: '30'
+#    fecha_vencimiento: '2016-02-18'
+#    departamento: departamento_2

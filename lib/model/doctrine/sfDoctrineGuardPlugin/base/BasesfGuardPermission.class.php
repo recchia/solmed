@@ -28,9 +28,9 @@
  * @method sfGuardPermission   setUsers()                  Sets the current record's "Users" collection
  * @method sfGuardPermission   setSfGuardUserPermission()  Sets the current record's "sfGuardUserPermission" collection
  * 
- * @package    saremo
+ * @package    solmed
  * @subpackage model
- * @author     UAH
+ * @author     Piero Recchia
  * @version    SVN: $Id: Builder.php 7691 2011-02-04 15:43:29Z jwage $
  */
 abstract class BasesfGuardPermission extends sfDoctrineRecord

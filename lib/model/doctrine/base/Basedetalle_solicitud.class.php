@@ -25,9 +25,9 @@
  * @method detalle_solicitud setArticulo()     Sets the current record's "articulo" value
  * @method detalle_solicitud setSolicitud()    Sets the current record's "solicitud" value
  * 
- * @package    saremo
+ * @package    solmed
  * @subpackage model
- * @author     UAH
+ * @author     Piero Recchia
  * @version    SVN: $Id: Builder.php 7691 2011-02-04 15:43:29Z jwage $
  */
 abstract class Basedetalle_solicitud extends sfDoctrineRecord

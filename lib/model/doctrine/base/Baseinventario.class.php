@@ -28,9 +28,9 @@
  * @method inventario   setArticulo()          Sets the current record's "articulo" value
  * @method inventario   setDepartamento()      Sets the current record's "departamento" value
  * 
- * @package    saremo
+ * @package    solmed
  * @subpackage model
- * @author     UAH
+ * @author     Piero Recchia
  * @version    SVN: $Id: Builder.php 7691 2011-02-04 15:43:29Z jwage $
  */
 abstract class Baseinventario extends sfDoctrineRecord

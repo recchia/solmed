@@ -37,9 +37,9 @@
  * @method solicitud           setUser()              Sets the current record's "User" value
  * @method solicitud           setDetalleSolicitud()  Sets the current record's "detalle_solicitud" collection
  * 
- * @package    saremo
+ * @package    solmed
  * @subpackage model
- * @author     UAH
+ * @author     Piero Recchia
  * @version    SVN: $Id: Builder.php 7691 2011-02-04 15:43:29Z jwage $
  */
 abstract class Basesolicitud extends sfDoctrineRecord

@@ -25,9 +25,9 @@
  * @method departamento        setInventario()  Sets the current record's "inventario" collection
  * @method departamento        setProfile()     Sets the current record's "Profile" collection
  * 
- * @package    saremo
+ * @package    solmed
  * @subpackage model
- * @author     UAH
+ * @author     Piero Recchia
  * @version    SVN: $Id: Builder.php 7691 2011-02-04 15:43:29Z jwage $
  */
 abstract class Basedepartamento extends sfDoctrineRecord

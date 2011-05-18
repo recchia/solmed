@@ -34,9 +34,9 @@
  * @method articulo            setDetalleSolicitud()  Sets the current record's "detalle_solicitud" collection
  * @method articulo            setInventario()        Sets the current record's "inventario" collection
  * 
- * @package    saremo
+ * @package    solmed
  * @subpackage model
- * @author     UAH
+ * @author     Piero Recchia
  * @version    SVN: $Id: Builder.php 7691 2011-02-04 15:43:29Z jwage $
  */
 abstract class Basearticulo extends sfDoctrineRecord

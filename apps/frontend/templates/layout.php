@@ -12,7 +12,7 @@
         <div id="wrapper">
             <div id="header">
                 <?php echo image_tag('logo_inass_gimp.png') ?>
-                <p style="display: inline; color: #FFFFFF; font-size: 10pt; font-family: verdana; float: right; margin: 2px 40px 1px 1px;">Bienvenido(a) <b><?php echo $sf_user->getGuardUser()->getusername(); ?></b></p>
+                <p style="display: inline; color: #FFFFFF; font-size: 10pt; font-family: verdana; float: right; margin: 2px 40px 1px 1px;">Bienvenido(a) <b><?php echo $sf_user->getAttribute('nombres').' '.$sf_user->getAttribute('apellidos'); ?></b></p>
             </div>
             <div id="menu_nav">
                 <?php $path = sfConfig::get('sf_app_dir').'/config/menu.yml' ?>
@@ -46,15 +46,14 @@
                 ))  ?>
             </div>
             <div id="lateral">
-                <?php if($sf_user->getGuardUser()->getProfile()->getCedula() != 0):?>
+                <?php if($sf_user->getAttribute('cedula') != 0):?>
                 <span class="info">
                     <h2>Datos del Usuario</h2>
                     <hr></hr>
-                    <b>Cédula:</b> <?php echo number_format($sf_user->getGuardUser()->getProfile()->getCedula(),0,',','.') ?><br></br>
-                    <b>Nombres:</b> <?php echo $sf_user->getGuardUser()->getProfile()->getNombres() ?><br></br>
-                    <b>Apellidos:</b> <?php echo $sf_user->getGuardUser()->getProfile()->getApellidos() ?><br></br>
-                    <b>Departamento:</b> <?php echo $sf_user->getGuardUser()->getProfile()->getDepartamento() ?><br></br>
-                    <b>Último Ingreso:</b> <?php echo $sf_user->getGuardUser()->getLastLogin() ?>
+                    <b>Cédula:</b> <?php echo number_format($sf_user->getAttribute('cedula'),0,',','.') ?><br></br>
+                    <b>Nombres:</b> <?php echo $sf_user->getAttribute('nombres') ?><br></br>
+                    <b>Apellidos:</b> <?php echo $sf_user->getAttribute('apellidos') ?><br></br>
+                    <b>Departamento:</b> <?php echo $sf_user->getAttribute('departamento') ?><br></br>
                 </span>
                 <?php endif;?>
                 <h3>Solicitud de Material</h3>

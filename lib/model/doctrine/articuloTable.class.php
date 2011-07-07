@@ -15,23 +15,45 @@ class articuloTable extends Doctrine_Table {
                 $pks[] = $hit->pk;
             }
             $q->whereIn('a.id', $pks);
-            /* switch ($searchOper) {
-              case 'eq':
-              $q->where("$searchField = '$searchString'");
-              break;
-              case 'cn':
-              $q->where("$searchField LIKE '%$searchString%'");
-              break;
-              case 'bw':
-              $q->where("$searchField LIKE '$searchString%'");
-              break;
-              case 'ew':
-              $q->where("$searchField LIKE '%$searchString'");
-              break;
-              } */
         }
         $q->orderBy("$sidx $sord");
         return new Doctrine_Pager($q, $pagina, $limite);
+    }
+    
+    public function getListado($page = 1, $limit = 20)
+    {
+        $strSQL = Doctrine_Query::create()
+                ->select('a.id, a.descripcion, a.created_at, a.updated_at, m.descripcion, c.descripcion')
+                ->from('Articulo a')
+                ->innerJoin('a.marca m')
+                ->innerJoin('a.categoria c');
+        $this->pagerLayout = new sfDoctrinePagerLayout(
+                        new Doctrine_Pager($strSQL, $page, $limit),
+                        new Doctrine_Pager_Range_Sliding(array('chunk' => 15)),
+                        'articulos/index?pagina={%page_number}');
+        $this->pagerLayout->setTemplate('{link_to}{%page}{/link_to}');
+        $this->pagerLayout->setSelectedTemplate('<span>{%page}</span>');
+        $this->pagerLayout->setSeparatorTemplate('&nbsp;');
+        $this->pager = $this->pagerLayout->getPager();
+
+        return $this->pager->execute(array());
+    }
+    
+    public function getDisplay($options = array(), $return = false) {
+        if ($return)
+            return $this->pagerLayout->display($options, $return);
+    }
+
+    public function getTotalResult() {
+        return $this->pager->getNumResults();
+    }
+
+    public function getTotalPages() {
+        return $this->pager->getLastPage();
+    }
+
+    public function haveToPaginate() {
+        return $this->pager->haveToPaginate();
     }
 
     public function makeJson($pager, $pagina, $limite) {

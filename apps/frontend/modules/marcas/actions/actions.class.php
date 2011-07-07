@@ -12,9 +12,12 @@ class marcasActions extends sfActions
 {
   public function executeIndex(sfWebRequest $request)
   {
-    $this->marcas = Doctrine::getTable('Marca')
-      ->createQuery('a')
-      ->execute();
+    $page = $request->getParameter('pagina', 1);
+    $this->marcas = Doctrine::getTable('Marca')->getListado($page, sfConfig::get('app_limite'));
+    $this->haveToPaginate = Doctrine::getTable('Marca')->haveToPaginate();
+    $this->resultados = Doctrine::getTable('Marca')->getTotalResult();
+    $this->paginas = Doctrine::getTable('Marca')->getTotalPages();
+    $this->menu = Doctrine::getTable('Marca')->getDisplay(array(), true);
   }
 
   public function executeNew(sfWebRequest $request)

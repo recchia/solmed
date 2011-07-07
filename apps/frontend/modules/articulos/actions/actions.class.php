@@ -12,9 +12,12 @@ class articulosActions extends sfActions
 {
   public function executeIndex(sfWebRequest $request)
   {
-    $this->articulos = Doctrine::getTable('Articulo')
-      ->createQuery('a')
-      ->execute();
+    $page = $request->getParameter('pagina', 1);
+    $this->articulos = Doctrine::getTable('Articulo')->getListado($page, sfConfig::get('app_limite'));
+    $this->haveToPaginate = Doctrine::getTable('Articulo')->haveToPaginate();
+    $this->resultados = Doctrine::getTable('Articulo')->getTotalResult();
+    $this->paginas = Doctrine::getTable('Articulo')->getTotalPages();
+    $this->menu = Doctrine::getTable('Articulo')->getDisplay(array(), true);
   }
 
   public function executeNew(sfWebRequest $request)

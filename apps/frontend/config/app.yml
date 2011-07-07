@@ -9,6 +9,8 @@ dev:
   url_absoluta: http://solmed/backend_dev.php
 
 all:
+  limite: 20
+  
   sf_guard_plugin:
     success_signin_url: homepage
     success_signout_url: homepage

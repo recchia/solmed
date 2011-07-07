@@ -30,7 +30,7 @@ html, body {
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
    border-radius: 10px;
-   background-color: #ffffff;
+   background: #ffffff url(../images/logo-inass.png) no-repeat right;
    font-family:Verdana;
 }
 #push {

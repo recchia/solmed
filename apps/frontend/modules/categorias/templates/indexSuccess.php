@@ -1,7 +1,8 @@
 <?php $_activo = array('No','Si') ?>
-<h1>Categorias</h1>
+<h1>Categor&iacute;as</h1>
 
 <table style="width: 80%">
+  <caption><?php echo $resultados ?> Categor&iacute;as en <?php echo $paginas ?> p&aacute;gina(s)</caption>
   <thead>
     <tr>
       <th>Id</th>
@@ -26,4 +27,10 @@
   </tbody>
 </table>
 <br>
+<?php if($haveToPaginate): ?>
+<div class="onlycssmenu-paging clearfix">
+    <?php echo html_entity_decode($menu) ?>
+</div>
+<?php endif;?>
+<br><br>
 <a href="<?php echo url_for('categorias/new') ?>" id="boton_link" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plus"></span>Crear Categoria</a>

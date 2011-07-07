@@ -1,0 +1,2905 @@
+articulo:
+  articulo_1:
+    descripcion: 'AZITRIMICINA 500mg'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-05-20 11:57:31'
+    updated_at: '2011-05-20 12:07:25'
+    deleted_at: null
+  articulo_2:
+    descripcion: 'AMOXILINA 500mg'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-05-20 11:59:26'
+    updated_at: '2011-05-20 12:12:08'
+    deleted_at: null
+  articulo_3:
+    descripcion: 'AMIKACINA 100mg'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-05-20 12:02:29'
+    updated_at: '2011-05-20 12:02:29'
+    deleted_at: null
+  articulo_4:
+    descripcion: 'CEFADROXILO 500mg'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-05-20 12:04:32'
+    updated_at: '2011-05-20 12:04:32'
+    deleted_at: null
+  articulo_5:
+    descripcion: 'CEFALEXINA 500mg'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-05-20 12:14:07'
+    updated_at: '2011-05-20 12:14:07'
+    deleted_at: null
+  articulo_6:
+    descripcion: 'CEFALOTINA 1gr'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-05-20 12:25:46'
+    updated_at: '2011-05-20 12:25:46'
+    deleted_at: null
+  articulo_7:
+    descripcion: 'CEFOTAXIMA 1gr'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-05-20 12:26:27'
+    updated_at: '2011-05-20 12:26:27'
+    deleted_at: null
+  articulo_8:
+    descripcion: 'CEFTTRIAXONA 1gr'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-05-20 12:36:17'
+    updated_at: '2011-05-20 12:36:17'
+    deleted_at: null
+  articulo_9:
+    descripcion: 'CIRPOFLOXACINA 100mg'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-05-20 12:40:45'
+    updated_at: '2011-05-20 12:42:21'
+    deleted_at: null
+  articulo_10:
+    descripcion: 'CIPROFLOXACINA 500mg'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-05-20 12:43:02'
+    updated_at: '2011-05-20 12:43:02'
+    deleted_at: null
+  articulo_11:
+    descripcion: 'CLINDAMICINA 600mg'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-05-20 12:55:27'
+    updated_at: '2011-05-20 12:55:27'
+    deleted_at: null
+  articulo_12:
+    descripcion: 'LEVOFLOXACINA 500mg'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-05-20 12:56:21'
+    updated_at: '2011-05-20 12:56:21'
+    deleted_at: null
+  articulo_13:
+    descripcion: 'LEV0FLOXACINA 500mg'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-05-23 08:57:22'
+    updated_at: '2011-05-23 08:57:22'
+    deleted_at: null
+  articulo_14:
+    descripcion: 'LOMEFLOXACINA 400mg'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-05-23 09:22:25'
+    updated_at: '2011-05-23 09:22:25'
+    deleted_at: null
+  articulo_15:
+    descripcion: 'NORFLOXACINA 400 mg'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-05-23 09:23:12'
+    updated_at: '2011-05-23 09:23:12'
+    deleted_at: null
+  articulo_16:
+    descripcion: 'PENICILINA G BENZATINICA 1.200.000 Us'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-05-23 09:24:09'
+    updated_at: '2011-06-21 07:12:29'
+    deleted_at: null
+  articulo_17:
+    descripcion: 'SULTAMICILINA 375 mg'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-05-23 09:34:40'
+    updated_at: '2011-05-23 09:34:40'
+    deleted_at: null
+  articulo_18:
+    descripcion: 'VANCOMICINA 500mg'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-05-23 09:55:57'
+    updated_at: '2011-05-23 09:55:57'
+    deleted_at: null
+  articulo_19:
+    descripcion: 'OXACILINA 1gr'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-05-23 10:02:07'
+    updated_at: '2011-05-23 10:02:07'
+    deleted_at: null
+  articulo_20:
+    descripcion: 'IMIPENEM 500mg'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 07:07:57'
+    updated_at: '2011-06-21 07:07:57'
+    deleted_at: null
+  articulo_21:
+    descripcion: 'CEFEPIME 1gr'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 07:09:21'
+    updated_at: '2011-06-21 07:09:21'
+    deleted_at: null
+  articulo_22:
+    descripcion: 'LEVOFLOXACINA 500mg'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-21 07:10:43'
+    updated_at: '2011-06-21 07:10:43'
+    deleted_at: null
+  articulo_23:
+    descripcion: 'OXACILINA 500mg'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-21 07:13:58'
+    updated_at: '2011-06-21 07:13:58'
+    deleted_at: null
+  articulo_24:
+    descripcion: 'AMPICILINA SULBACTAN 1,5mg'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 07:14:38'
+    updated_at: '2011-06-21 07:14:38'
+    deleted_at: null
+  articulo_25:
+    descripcion: 'CEFTAZIDIMA 1gr'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 07:17:02'
+    updated_at: '2011-06-21 07:17:02'
+    deleted_at: null
+  articulo_26:
+    descripcion: 'CEFUROXIMA 750mg'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 07:18:57'
+    updated_at: '2011-06-21 07:18:57'
+    deleted_at: null
+  articulo_27:
+    descripcion: LINDANO
+    categoria: categoria_6
+    marca: marca_9
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:02:35'
+    updated_at: '2011-06-28 18:16:49'
+    deleted_at: null
+  articulo_28:
+    descripcion: 'LINDANO '
+    categoria: categoria_6
+    marca: marca_10
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:04:20'
+    updated_at: '2011-06-28 18:18:56'
+    deleted_at: null
+  articulo_29:
+    descripcion: 'FLUCONAZOL 150 mg'
+    categoria: categoria_5
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:04:25'
+    updated_at: '2011-06-28 18:20:04'
+    deleted_at: null
+  articulo_30:
+    descripcion: 'METRONIDAZOL 500 mg'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:07:55'
+    updated_at: '2011-06-28 18:21:55'
+    deleted_at: null
+  articulo_31:
+    descripcion: 'ALBENDAZOL 200 mg'
+    categoria: categoria_5
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:14:02'
+    updated_at: '2011-06-28 18:31:38'
+    deleted_at: null
+  articulo_32:
+    descripcion: 'FURFURIL '
+    categoria: categoria_7
+    marca: marca_11
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:15:25'
+    updated_at: '2011-06-28 18:28:26'
+    deleted_at: null
+  articulo_33:
+    descripcion: 'FLUCONAZOL 200 mg'
+    categoria: categoria_5
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:16:09'
+    updated_at: '2011-06-28 18:30:38'
+    deleted_at: null
+  articulo_34:
+    descripcion: ISOCONAZOL
+    categoria: categoria_5
+    marca: marca_11
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:17:42'
+    updated_at: '2011-06-28 18:33:14'
+    deleted_at: null
+  articulo_35:
+    descripcion: 'CLOTRIMAZOL '
+    categoria: categoria_5
+    marca: marca_12
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:18:52'
+    updated_at: '2011-06-28 18:35:33'
+    deleted_at: null
+  articulo_36:
+    descripcion: 'METRONIDAZOL 0,5 G X 100 ML'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:19:42'
+    updated_at: '2011-06-21 10:20:47'
+    deleted_at: null
+  articulo_37:
+    descripcion: 'KETOCONAZOL 200 mg'
+    categoria: categoria_5
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:22:03'
+    updated_at: '2011-06-28 18:37:10'
+    deleted_at: null
+  articulo_38:
+    descripcion: NISTATINA
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:23:02'
+    updated_at: '2011-06-21 10:23:02'
+    deleted_at: null
+  articulo_39:
+    descripcion: 'SECNIDAZOL 500 MG  '
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:24:06'
+    updated_at: '2011-06-21 10:24:06'
+    deleted_at: null
+  articulo_40:
+    descripcion: 'TERBINAFINA 100 MG'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:24:46'
+    updated_at: '2011-06-21 10:24:46'
+    deleted_at: null
+  articulo_41:
+    descripcion: 'TERBINAFINA 250 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:25:27'
+    updated_at: '2011-06-21 10:25:27'
+    deleted_at: null
+  articulo_42:
+    descripcion: 'TRIMETOPRIN SULFAMETOXASOL'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:26:22'
+    updated_at: '2011-06-21 10:26:22'
+    deleted_at: null
+  articulo_43:
+    descripcion: 'ACICLOVIR 200 MG'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:26:53'
+    updated_at: '2011-06-21 10:26:53'
+    deleted_at: null
+  articulo_44:
+    descripcion: 'KETOCONAZOL 200 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:27:28'
+    updated_at: '2011-06-21 10:27:28'
+    deleted_at: null
+  articulo_45:
+    descripcion: 'TINIDAZOL 500 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:28:05'
+    updated_at: '2011-06-21 10:28:05'
+    deleted_at: null
+  articulo_46:
+    descripcion: 'ACETAMINOFEN 500 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:29:20'
+    updated_at: '2011-06-21 10:29:20'
+    deleted_at: null
+  articulo_47:
+    descripcion: 'ACIDO ACETIL SALICILICO 100 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:30:31'
+    updated_at: '2011-06-21 10:30:31'
+    deleted_at: null
+  articulo_48:
+    descripcion: 'AZULFIDINE 500 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:31:23'
+    updated_at: '2011-06-21 10:31:23'
+    deleted_at: null
+  articulo_49:
+    descripcion: 'DICLOFENAC SODICO '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:32:19'
+    updated_at: '2011-06-21 10:32:19'
+    deleted_at: null
+  articulo_50:
+    descripcion: 'DICLOFENAC RESINATO 75 MG'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:33:12'
+    updated_at: '2011-06-21 10:33:12'
+    deleted_at: null
+  articulo_51:
+    descripcion: 'DICLOFENAC SODICO'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:35:06'
+    updated_at: '2011-06-21 10:35:06'
+    deleted_at: null
+  articulo_52:
+    descripcion: 'IBUPROFENO 400 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:37:09'
+    updated_at: '2011-06-21 10:37:09'
+    deleted_at: null
+  articulo_53:
+    descripcion: 'KETOPROFENO IV '
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:38:27'
+    updated_at: '2011-06-21 10:38:27'
+    deleted_at: null
+  articulo_54:
+    descripcion: 'KETOPROFENO IM'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:39:30'
+    updated_at: '2011-06-21 10:39:30'
+    deleted_at: null
+  articulo_55:
+    descripcion: 'KETOROLAC 100 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:40:19'
+    updated_at: '2011-06-21 10:40:19'
+    deleted_at: null
+  articulo_56:
+    descripcion: 'SALICILATO DE METILO ALCANFOR, MENTOL '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:42:24'
+    updated_at: '2011-06-21 10:42:24'
+    deleted_at: null
+  articulo_57:
+    descripcion: 'SALICILATO DE METILO ALCANFOR, MENTOL'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:44:46'
+    updated_at: '2011-06-21 10:44:46'
+    deleted_at: null
+  articulo_58:
+    descripcion: 'LOXOPROFENO 60 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:46:10'
+    updated_at: '2011-06-21 10:46:10'
+    deleted_at: null
+  articulo_59:
+    descripcion: 'SULFATO DE GLUCOSAMINA'
+    categoria: categoria_1
+    marca: marca_6
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:46:48'
+    updated_at: '2011-06-21 10:46:48'
+    deleted_at: null
+  articulo_60:
+    descripcion: 'ACETAMINOFEN TRAMAD'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:48:36'
+    updated_at: '2011-06-21 10:48:36'
+    deleted_at: null
+  articulo_61:
+    descripcion: DIPIRONA
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:49:14'
+    updated_at: '2011-06-21 10:49:14'
+    deleted_at: null
+  articulo_62:
+    descripcion: 'AGIOLAX  250 GR'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:50:40'
+    updated_at: '2011-06-21 10:50:40'
+    deleted_at: null
+  articulo_63:
+    descripcion: 'SENOSIDOS A Y B '
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:51:21'
+    updated_at: '2011-06-21 10:51:21'
+    deleted_at: null
+  articulo_64:
+    descripcion: 'SENOSIDOS A Y B'
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:52:28'
+    updated_at: '2011-06-21 10:52:28'
+    deleted_at: null
+  articulo_65:
+    descripcion: 'FLEET ENEMA'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:53:07'
+    updated_at: '2011-06-21 10:53:07'
+    deleted_at: null
+  articulo_66:
+    descripcion: 'CARBONATO DE CALCIO'
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:54:16'
+    updated_at: '2011-06-21 10:54:16'
+    deleted_at: null
+  articulo_67:
+    descripcion: 'CARBONATO DE CALCIO'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:55:42'
+    updated_at: '2011-06-21 10:55:42'
+    deleted_at: null
+  articulo_68:
+    descripcion: 'BROMURO DE PINAVARIUM 50 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 10:58:19'
+    updated_at: '2011-06-21 10:58:19'
+    deleted_at: null
+  articulo_69:
+    descripcion: 'DIMETILPOLISILOXANO+ENZIMA PANCREATICA    '
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 11:00:17'
+    updated_at: '2011-06-21 11:00:17'
+    deleted_at: null
+  articulo_70:
+    descripcion: 'DOMPERIDONA 10 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-21 11:01:19'
+    updated_at: '2011-06-21 11:01:19'
+    deleted_at: null
+  articulo_71:
+    descripcion: METOCLOPRAMIDA
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 11:01:54'
+    updated_at: '2011-06-21 11:01:54'
+    deleted_at: null
+  articulo_72:
+    descripcion: METOCLOPRAMIDA
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 11:02:30'
+    updated_at: '2011-06-21 11:02:30'
+    deleted_at: null
+  articulo_73:
+    descripcion: 'OMEPRAZOL 20 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 11:03:16'
+    updated_at: '2011-06-21 11:03:16'
+    deleted_at: null
+  articulo_74:
+    descripcion: 'PANTOPRAZOL IV'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 11:03:51'
+    updated_at: '2011-06-21 11:03:51'
+    deleted_at: null
+  articulo_75:
+    descripcion: 'RANITIDINA 150 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 11:04:35'
+    updated_at: '2011-06-21 11:04:35'
+    deleted_at: null
+  articulo_76:
+    descripcion: 'RANITIDINA 50 MG '
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-21 11:05:11'
+    updated_at: '2011-06-21 11:05:11'
+    deleted_at: null
+  articulo_77:
+    descripcion: 'SUCRALFATO '
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-21 11:05:56'
+    updated_at: '2011-06-21 11:05:56'
+    deleted_at: null
+  articulo_78:
+    descripcion: SUCRALFATO
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 11:06:37'
+    updated_at: '2011-06-21 11:06:37'
+    deleted_at: null
+  articulo_79:
+    descripcion: 'TRIMEBUTINA 200 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-21 11:07:23'
+    updated_at: '2011-06-21 11:07:23'
+    deleted_at: null
+  articulo_80:
+    descripcion: 'DIMETIL POLIXOSANO 40 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 11:08:17'
+    updated_at: '2011-06-21 11:08:17'
+    deleted_at: null
+  articulo_81:
+    descripcion: 'BETAHISTINA 16 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-21 11:16:35'
+    updated_at: '2011-06-21 11:16:35'
+    deleted_at: null
+  articulo_82:
+    descripcion: 'BROMURO D HIOSCINA'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:39:31'
+    updated_at: '2011-06-22 11:39:31'
+    deleted_at: null
+  articulo_83:
+    descripcion: 'BROMURO DE HIOSCINA'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:40:05'
+    updated_at: '2011-06-22 11:40:05'
+    deleted_at: null
+  articulo_84:
+    descripcion: 'LACTOBACILLUS '
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:40:37'
+    updated_at: '2011-06-22 11:40:37'
+    deleted_at: null
+  articulo_85:
+    descripcion: 'VENLAFAXINA 75 MG'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:41:13'
+    updated_at: '2011-06-22 11:41:13'
+    deleted_at: null
+  articulo_86:
+    descripcion: 'CLORHIDRATO DE MORFINA 100 MG/2ML'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:42:19'
+    updated_at: '2011-06-22 11:42:19'
+    deleted_at: null
+  articulo_87:
+    descripcion: 'CARBAMAZEPINA 200 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:42:45'
+    updated_at: '2011-06-22 11:42:45'
+    deleted_at: null
+  articulo_88:
+    descripcion: FENOBARBITAL
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:43:07'
+    updated_at: '2011-06-22 11:43:07'
+    deleted_at: null
+  articulo_89:
+    descripcion: 'RISPERIDONA 2 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:43:38'
+    updated_at: '2011-06-22 11:43:38'
+    deleted_at: null
+  articulo_90:
+    descripcion: 'SERTRALINA 50 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:44:11'
+    updated_at: '2011-06-22 11:44:11'
+    deleted_at: null
+  articulo_91:
+    descripcion: 'FLUOXETINA 20 MG'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:44:43'
+    updated_at: '2011-06-22 11:44:43'
+    deleted_at: null
+  articulo_92:
+    descripcion: 'DIFENIL HIDANTOINA 50 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:45:13'
+    updated_at: '2011-06-22 11:45:13'
+    deleted_at: null
+  articulo_93:
+    descripcion: 'AKINETON 4 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:45:32'
+    updated_at: '2011-06-22 11:45:32'
+    deleted_at: null
+  articulo_94:
+    descripcion: 'AKINETON '
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:45:54'
+    updated_at: '2011-06-22 11:45:54'
+    deleted_at: null
+  articulo_95:
+    descripcion: 'AKINETON 2 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:46:18'
+    updated_at: '2011-06-22 11:46:18'
+    deleted_at: null
+  articulo_96:
+    descripcion: 'ALPRAZOLAM 0.5 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:46:39'
+    updated_at: '2011-06-22 11:46:39'
+    deleted_at: null
+  articulo_97:
+    descripcion: 'ALPRAZOLAM 1 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:47:05'
+    updated_at: '2011-06-22 11:47:05'
+    deleted_at: null
+  articulo_98:
+    descripcion: 'BROMAZEPAN 3 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:47:30'
+    updated_at: '2011-06-22 11:47:30'
+    deleted_at: null
+  articulo_99:
+    descripcion: 'CLONAZEPAN 2 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:47:53'
+    updated_at: '2011-06-22 11:47:53'
+    deleted_at: null
+  articulo_100:
+    descripcion: 'DIAZEPAN 2 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:52:47'
+    updated_at: '2011-06-22 11:52:47'
+    deleted_at: null
+  articulo_101:
+    descripcion: 'DIAZEPAN '
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:53:08'
+    updated_at: '2011-06-22 11:53:08'
+    deleted_at: null
+  articulo_102:
+    descripcion: 'GABAPENTINA 400 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:53:39'
+    updated_at: '2011-06-22 11:53:39'
+    deleted_at: null
+  articulo_103:
+    descripcion: HALOPERIDOL
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 11:54:09'
+    updated_at: '2011-06-22 11:54:09'
+    deleted_at: null
+  articulo_104:
+    descripcion: 'CARDIPOBA 250 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:20:38'
+    updated_at: '2011-06-22 13:20:38'
+    deleted_at: null
+  articulo_105:
+    descripcion: MORFINA
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:21:30'
+    updated_at: '2011-06-22 13:21:30'
+    deleted_at: null
+  articulo_106:
+    descripcion: 'LEVOMEPROMAZINA 25 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:22:00'
+    updated_at: '2011-06-22 13:22:00'
+    deleted_at: null
+  articulo_107:
+    descripcion: 'DIAZEPAM 5 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:22:39'
+    updated_at: '2011-06-22 13:22:39'
+    deleted_at: null
+  articulo_108:
+    descripcion: 'LORAZEPAM 1 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:23:30'
+    updated_at: '2011-06-22 13:23:30'
+    deleted_at: null
+  articulo_109:
+    descripcion: 'LORAZEPAM 2 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:23:56'
+    updated_at: '2011-06-22 13:23:56'
+    deleted_at: null
+  articulo_110:
+    descripcion: 'FENOBARBITAL 100 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:24:20'
+    updated_at: '2011-06-22 13:24:20'
+    deleted_at: null
+  articulo_111:
+    descripcion: 'AMIODARONA '
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:24:44'
+    updated_at: '2011-06-22 13:24:44'
+    deleted_at: null
+  articulo_112:
+    descripcion: 'AMIODARONA 200 MG'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:25:08'
+    updated_at: '2011-06-22 13:25:08'
+    deleted_at: null
+  articulo_113:
+    descripcion: 'AMLODIPINA 5 MG '
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:25:41'
+    updated_at: '2011-06-22 13:25:41'
+    deleted_at: null
+  articulo_114:
+    descripcion: 'AMLODIPINA 10 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:26:01'
+    updated_at: '2011-06-22 13:26:01'
+    deleted_at: null
+  articulo_115:
+    descripcion: 'CAPTOPRIL 25 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:26:32'
+    updated_at: '2011-06-22 13:26:32'
+    deleted_at: null
+  articulo_116:
+    descripcion: 'CAPTOPRIL 50 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:26:54'
+    updated_at: '2011-06-22 13:26:54'
+    deleted_at: null
+  articulo_117:
+    descripcion: 'DIGOXINA 0.25 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:27:22'
+    updated_at: '2011-06-22 13:27:22'
+    deleted_at: null
+  articulo_118:
+    descripcion: 'ENALAPRIL 20 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:27:44'
+    updated_at: '2011-06-22 13:27:44'
+    deleted_at: null
+  articulo_119:
+    descripcion: 'ISOSORBIDE 10 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:28:10'
+    updated_at: '2011-06-22 13:28:10'
+    deleted_at: null
+  articulo_120:
+    descripcion: 'ISOSORBIDE 5 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:28:55'
+    updated_at: '2011-06-22 13:28:55'
+    deleted_at: null
+  articulo_121:
+    descripcion: 'PENTOXIFILINA '
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:29:24'
+    updated_at: '2011-06-22 13:29:24'
+    deleted_at: null
+  articulo_122:
+    descripcion: 'PENTOXIFILINA 400 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:29:50'
+    updated_at: '2011-06-22 13:29:50'
+    deleted_at: null
+  articulo_123:
+    descripcion: 'CLOPIDROGEL 75 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:31:14'
+    updated_at: '2011-06-22 13:31:14'
+    deleted_at: null
+  articulo_124:
+    descripcion: 'LOSARTAN POTASICO 50 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:31:49'
+    updated_at: '2011-06-22 13:31:49'
+    deleted_at: null
+  articulo_125:
+    descripcion: 'VALSATAN + HIDROCLOROTIAZIDA '
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:32:39'
+    updated_at: '2011-06-22 13:32:39'
+    deleted_at: null
+  articulo_126:
+    descripcion: 'VALSATAN 80 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:33:57'
+    updated_at: '2011-06-22 13:33:57'
+    deleted_at: null
+  articulo_127:
+    descripcion: 'ENALAPRIL 10 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:34:19'
+    updated_at: '2011-06-22 13:34:19'
+    deleted_at: null
+  articulo_128:
+    descripcion: 'ENALAPRIL 5 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:34:38'
+    updated_at: '2011-06-22 13:34:38'
+    deleted_at: null
+  articulo_129:
+    descripcion: 'NIFEDIPINA 10 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:36:09'
+    updated_at: '2011-06-22 13:36:09'
+    deleted_at: null
+  articulo_130:
+    descripcion: 'NIFEDIPINA 20 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:36:35'
+    updated_at: '2011-06-22 13:36:35'
+    deleted_at: null
+  articulo_131:
+    descripcion: 'NIFEDIPINA 30 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:36:56'
+    updated_at: '2011-06-22 13:36:56'
+    deleted_at: null
+  articulo_132:
+    descripcion: 'TICLOPIDINA 250 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:37:19'
+    updated_at: '2011-06-22 13:37:19'
+    deleted_at: null
+  articulo_133:
+    descripcion: 'NIMODIPINA 40 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:37:43'
+    updated_at: '2011-06-22 13:37:43'
+    deleted_at: null
+  articulo_134:
+    descripcion: 'ATENOLOL 50 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:38:05'
+    updated_at: '2011-06-22 13:38:05'
+    deleted_at: null
+  articulo_135:
+    descripcion: 'ATENELOL 100 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:38:28'
+    updated_at: '2011-06-22 13:38:28'
+    deleted_at: null
+  articulo_136:
+    descripcion: 'CARVEDILOL 6.25 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:38:53'
+    updated_at: '2011-06-22 13:38:53'
+    deleted_at: null
+  articulo_137:
+    descripcion: 'ISOSORBIDE 20 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:39:27'
+    updated_at: '2011-06-22 13:39:27'
+    deleted_at: null
+  articulo_138:
+    descripcion: 'POLIESTER MUCOPOLISACARIDO DE ACIDO SULFURICO (ORGANO HEPARINOIDE)'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:40:35'
+    updated_at: '2011-06-22 13:40:35'
+    deleted_at: null
+  articulo_139:
+    descripcion: 'POLIESTER MUCOPOLISACARIDO DE ACIDO SULFURICO (ORGANO HEPARINOIDE)'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:41:10'
+    updated_at: '2011-06-22 13:41:10'
+    deleted_at: null
+  articulo_140:
+    descripcion: 'ACIDO TRANEXAMICO '
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:41:58'
+    updated_at: '2011-06-22 13:41:58'
+    deleted_at: null
+  articulo_141:
+    descripcion: 'ACIDO TRANEXAMICO'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:42:18'
+    updated_at: '2011-06-22 13:42:18'
+    deleted_at: null
+  articulo_142:
+    descripcion: 'DIOSMINA 600 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:42:39'
+    updated_at: '2011-06-22 13:42:39'
+    deleted_at: null
+  articulo_143:
+    descripcion: 'ENOXAPARINA DE SODIO 20 MG'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:43:06'
+    updated_at: '2011-06-22 13:43:06'
+    deleted_at: null
+  articulo_144:
+    descripcion: 'ENOXAPARINA DE SODIO 40 MG'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:44:16'
+    updated_at: '2011-06-22 13:44:16'
+    deleted_at: null
+  articulo_145:
+    descripcion: HEPARINOIDE
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:44:38'
+    updated_at: '2011-06-22 13:44:38'
+    deleted_at: null
+  articulo_146:
+    descripcion: 'WARFARINA 5 MG '
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:45:05'
+    updated_at: '2011-06-22 13:45:05'
+    deleted_at: null
+  articulo_147:
+    descripcion: 'WARFARINA 2 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:45:29'
+    updated_at: '2011-06-22 13:45:29'
+    deleted_at: null
+  articulo_148:
+    descripcion: 'AMINOFILINA 240 MG/10 ML'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:50:45'
+    updated_at: '2011-06-22 13:50:45'
+    deleted_at: null
+  articulo_149:
+    descripcion: 'ESPIRONOLACTONA 25 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:51:25'
+    updated_at: '2011-06-22 13:51:25'
+    deleted_at: null
+  articulo_150:
+    descripcion: 'FUROSEMIDA 20 MG '
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:51:49'
+    updated_at: '2011-06-22 13:51:49'
+    deleted_at: null
+  articulo_151:
+    descripcion: 'FUROSEMIDA 20 MG'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:52:08'
+    updated_at: '2011-06-22 13:52:08'
+    deleted_at: null
+  articulo_152:
+    descripcion: 'HIDROCLOROTIAZIDA 25 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:52:36'
+    updated_at: '2011-06-22 13:52:36'
+    deleted_at: null
+  articulo_153:
+    descripcion: 'CETIRIZINA 10 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:52:56'
+    updated_at: '2011-06-22 13:52:56'
+    deleted_at: null
+  articulo_154:
+    descripcion: 'LORATADINA 10 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:53:16'
+    updated_at: '2011-06-22 13:53:16'
+    deleted_at: null
+  articulo_155:
+    descripcion: 'CLORHIDRATO DE AMBROXOL '
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:54:05'
+    updated_at: '2011-06-22 13:54:05'
+    deleted_at: null
+  articulo_156:
+    descripcion: BROMEXINA
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:54:45'
+    updated_at: '2011-06-22 13:54:45'
+    deleted_at: null
+  articulo_157:
+    descripcion: 'TEOFILINA 250 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:55:06'
+    updated_at: '2011-06-22 13:55:06'
+    deleted_at: null
+  articulo_158:
+    descripcion: 'AMBROXOL - CLEMBUTEROL'
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:56:26'
+    updated_at: '2011-06-22 13:56:26'
+    deleted_at: null
+  articulo_159:
+    descripcion: 'BROMURO DE IPRATROPIO 0.25 MG'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:57:00'
+    updated_at: '2011-06-22 13:57:00'
+    deleted_at: null
+  articulo_160:
+    descripcion: 'BROMURO DE IPRATROPIO '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 13:57:26'
+    updated_at: '2011-06-22 13:57:26'
+    deleted_at: null
+  articulo_161:
+    descripcion: 'FUMARATO DE FORMOTEROL 12 MG'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:00:06'
+    updated_at: '2011-06-22 14:00:06'
+    deleted_at: null
+  articulo_162:
+    descripcion: 'FUMARATO DE FORMOTEROL/ MIFLONIDE 400 MG'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:00:56'
+    updated_at: '2011-06-22 14:00:56'
+    deleted_at: null
+  articulo_163:
+    descripcion: 'FORADIL + MINOFLONIDE 200 MG'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:01:36'
+    updated_at: '2011-06-22 14:01:36'
+    deleted_at: null
+  articulo_164:
+    descripcion: CLEMBUTAROL
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:02:01'
+    updated_at: '2011-06-22 14:02:01'
+    deleted_at: null
+  articulo_165:
+    descripcion: 'AMINOFILINA '
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:02:26'
+    updated_at: '2011-06-22 14:02:26'
+    deleted_at: null
+  articulo_166:
+    descripcion: 'DEXAMETASONA 0.1 %'
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:02:57'
+    updated_at: '2011-06-22 14:02:57'
+    deleted_at: null
+  articulo_167:
+    descripcion: 'DEXTRAN 70'
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:03:15'
+    updated_at: '2011-06-22 14:03:15'
+    deleted_at: null
+  articulo_168:
+    descripcion: 'DORZOLAMIDA + TIMOLOL'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:03:38'
+    updated_at: '2011-06-22 14:03:38'
+    deleted_at: null
+  articulo_169:
+    descripcion: 'MALEATO DE TIMOLOL 0.5 %'
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:04:21'
+    updated_at: '2011-06-22 14:04:21'
+    deleted_at: null
+  articulo_170:
+    descripcion: 'TOBRAMICINA + DEXAMETASONA '
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:05:34'
+    updated_at: '2011-06-22 14:05:34'
+    deleted_at: null
+  articulo_171:
+    descripcion: TOBRAMICINA
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:06:17'
+    updated_at: '2011-06-22 14:06:17'
+    deleted_at: null
+  articulo_172:
+    descripcion: 'TRAVOPROST 0.004%'
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:06:45'
+    updated_at: '2011-06-22 14:06:45'
+    deleted_at: null
+  articulo_173:
+    descripcion: 'LATANO PROST '
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:07:14'
+    updated_at: '2011-06-22 14:07:14'
+    deleted_at: null
+  articulo_174:
+    descripcion: 'DEXTRAN '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:07:33'
+    updated_at: '2011-06-22 14:07:33'
+    deleted_at: null
+  articulo_175:
+    descripcion: 'GENTAMICINA '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:08:17'
+    updated_at: '2011-06-22 14:08:17'
+    deleted_at: null
+  articulo_176:
+    descripcion: CIPROLOXACINA
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:08:38'
+    updated_at: '2011-06-22 14:08:38'
+    deleted_at: null
+  articulo_177:
+    descripcion: TOBRAMICINA
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:08:58'
+    updated_at: '2011-06-22 14:08:58'
+    deleted_at: null
+  articulo_178:
+    descripcion: DEXAMETASONA
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:09:20'
+    updated_at: '2011-06-22 14:09:20'
+    deleted_at: null
+  articulo_179:
+    descripcion: 'DICLOFENAC '
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:09:45'
+    updated_at: '2011-06-22 14:09:45'
+    deleted_at: null
+  articulo_180:
+    descripcion: KETOTIFENO
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:10:12'
+    updated_at: '2011-06-22 14:10:12'
+    deleted_at: null
+  articulo_181:
+    descripcion: 'TROPICAMIDA 1%'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:10:39'
+    updated_at: '2011-06-22 14:10:39'
+    deleted_at: null
+  articulo_182:
+    descripcion: 'SOLUCION DEXTROSA 5% CON CLORURO 0.45% Nº29'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:11:38'
+    updated_at: '2011-06-22 14:11:38'
+    deleted_at: null
+  articulo_183:
+    descripcion: 'SOLUCION CLORURO DE SODIO 0.45% Nº 15'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:12:11'
+    updated_at: '2011-06-22 14:12:11'
+    deleted_at: null
+  articulo_184:
+    descripcion: 'SOLUCION DEXTROSA 5% GLUCOFISIOLOGICA Nº 4'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:12:58'
+    updated_at: '2011-06-22 14:12:58'
+    deleted_at: null
+  articulo_185:
+    descripcion: 'SOLUCION DEXTROSA 5% GLUCOSADA nº 1'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:13:30'
+    updated_at: '2011-06-22 14:13:30'
+    deleted_at: null
+  articulo_186:
+    descripcion: 'SOLUCION ITOSONICA'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:17:36'
+    updated_at: '2011-06-22 14:17:36'
+    deleted_at: null
+  articulo_187:
+    descripcion: 'SOLUCION HIPERTONICA DE CLORURO DE SODIO AL 3% Nº 22'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:18:49'
+    updated_at: '2011-06-22 14:18:49'
+    deleted_at: null
+  articulo_188:
+    descripcion: 'SOLUCION RINGER LACTATO Nº 19'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:20:34'
+    updated_at: '2011-06-22 14:20:34'
+    deleted_at: null
+  articulo_189:
+    descripcion: 'SOLUCION CLORURO DEPOTASIO'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:21:06'
+    updated_at: '2011-06-22 14:21:06'
+    deleted_at: null
+  articulo_190:
+    descripcion: 'SOLUCION DEXTROSA AL 10% Nº 2'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:21:37'
+    updated_at: '2011-06-22 14:21:37'
+    deleted_at: null
+  articulo_191:
+    descripcion: 'SOLUCION DEXTROSA AL 30% Nº 11'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:21:58'
+    updated_at: '2011-06-22 14:21:58'
+    deleted_at: null
+  articulo_192:
+    descripcion: 'HIDRATACION ORAL'
+    categoria: categoria_1
+    marca: marca_6
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:22:21'
+    updated_at: '2011-06-22 14:22:21'
+    deleted_at: null
+  articulo_193:
+    descripcion: 'BETAMETASONA '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:22:43'
+    updated_at: '2011-06-22 14:22:43'
+    deleted_at: null
+  articulo_194:
+    descripcion: BACITRACINA
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:23:01'
+    updated_at: '2011-06-22 14:23:01'
+    deleted_at: null
+  articulo_195:
+    descripcion: 'BENCIDAMINA '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:23:50'
+    updated_at: '2011-06-22 14:23:50'
+    deleted_at: null
+  articulo_196:
+    descripcion: 'NISTATINA '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:24:15'
+    updated_at: '2011-06-22 14:24:15'
+    deleted_at: null
+  articulo_197:
+    descripcion: 'MUPIROCIN '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:24:43'
+    updated_at: '2011-06-22 14:24:43'
+    deleted_at: null
+  articulo_198:
+    descripcion: 'CLOTRIMAZOL + DEXAMETASONA + NEOMICINA'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:25:41'
+    updated_at: '2011-06-22 14:25:41'
+    deleted_at: null
+  articulo_199:
+    descripcion: 'ACETATO DE ZINC + TRAMOXINA'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:27:09'
+    updated_at: '2011-06-22 14:27:09'
+    deleted_at: null
+  articulo_200:
+    descripcion: 'LUBRIDERM '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:28:09'
+    updated_at: '2011-06-22 14:28:09'
+    deleted_at: null
+  articulo_201:
+    descripcion: ANTIPIRINA
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:28:53'
+    updated_at: '2011-06-22 14:28:53'
+    deleted_at: null
+  articulo_202:
+    descripcion: 'SULFATO DE NEOMICINA'
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:29:13'
+    updated_at: '2011-06-22 14:29:13'
+    deleted_at: null
+  articulo_203:
+    descripcion: 'SUFADIAZINA DE PLATA 1% '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:29:40'
+    updated_at: '2011-06-22 14:29:40'
+    deleted_at: null
+  articulo_204:
+    descripcion: 'OXOFERIN  100 ML'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:30:03'
+    updated_at: '2011-06-22 14:30:03'
+    deleted_at: null
+  articulo_205:
+    descripcion: 'IODOPOLIVINIL PIRROLIDONA 120 ML'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:30:35'
+    updated_at: '2011-06-22 14:30:35'
+    deleted_at: null
+  articulo_206:
+    descripcion: 'IODOPOLIVINIL PIRROLIDONA 120 ML'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:31:55'
+    updated_at: '2011-06-22 14:31:55'
+    deleted_at: null
+  articulo_207:
+    descripcion: 'LANOL ZINZ '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:33:38'
+    updated_at: '2011-06-22 14:33:38'
+    deleted_at: null
+  articulo_208:
+    descripcion: 'ALLOPURINOL 100 MG '
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:33:59'
+    updated_at: '2011-06-22 14:33:59'
+    deleted_at: null
+  articulo_209:
+    descripcion: 'FINASTERIDE 5 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:34:25'
+    updated_at: '2011-06-22 14:34:25'
+    deleted_at: null
+  articulo_210:
+    descripcion: 'TAPAZOL 5 MG '
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:34:45'
+    updated_at: '2011-06-22 14:34:45'
+    deleted_at: null
+  articulo_211:
+    descripcion: ATROPINA
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:35:01'
+    updated_at: '2011-06-22 14:35:01'
+    deleted_at: null
+  articulo_212:
+    descripcion: 'CLORHIDRATO DE ETILEFRINA '
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:35:29'
+    updated_at: '2011-06-22 14:35:29'
+    deleted_at: null
+  articulo_213:
+    descripcion: 'NIFEDIPINA '
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:35:55'
+    updated_at: '2011-06-22 14:35:55'
+    deleted_at: null
+  articulo_214:
+    descripcion: 'ADRENALINA '
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:36:17'
+    updated_at: '2011-06-22 14:36:17'
+    deleted_at: null
+  articulo_215:
+    descripcion: 'ACIDO ACETIL SALICILICO'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:36:53'
+    updated_at: '2011-06-22 14:36:53'
+    deleted_at: null
+  articulo_216:
+    descripcion: FLUMAZENIL
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:37:42'
+    updated_at: '2011-06-22 14:37:42'
+    deleted_at: null
+  articulo_217:
+    descripcion: 'FOSFATO DE POTASIO '
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:38:03'
+    updated_at: '2011-06-22 14:38:03'
+    deleted_at: null
+  articulo_218:
+    descripcion: 'BACLOFENO 10 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:43:15'
+    updated_at: '2011-06-22 14:43:15'
+    deleted_at: null
+  articulo_219:
+    descripcion: 'BACLOFENO 25 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:43:33'
+    updated_at: '2011-06-22 14:43:33'
+    deleted_at: null
+  articulo_220:
+    descripcion: 'TRIMETAZIDINA DICLORHIDRATO 35 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:44:09'
+    updated_at: '2011-06-22 14:44:09'
+    deleted_at: null
+  articulo_221:
+    descripcion: 'VERAPAMIL 40 MG'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:44:29'
+    updated_at: '2011-06-22 14:44:29'
+    deleted_at: null
+  articulo_222:
+    descripcion: 'TRIFLUPERAZINA 5 MG '
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:45:04'
+    updated_at: '2011-06-22 14:45:04'
+    deleted_at: null
+  articulo_223:
+    descripcion: 'RIFOCINA '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:45:21'
+    updated_at: '2011-06-22 14:45:21'
+    deleted_at: null
+  articulo_224:
+    descripcion: 'FOSFATO DE SODIO ORAL  45 CC'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:46:05'
+    updated_at: '2011-06-22 14:46:05'
+    deleted_at: null
+  articulo_225:
+    descripcion: 'ERITROPROYETINA 4.000 IU'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:46:39'
+    updated_at: '2011-06-22 14:46:39'
+    deleted_at: null
+  articulo_226:
+    descripcion: 'ANDANTOL (ALCANFOR)'
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:47:05'
+    updated_at: '2011-06-22 14:47:05'
+    deleted_at: null
+  articulo_227:
+    descripcion: 'ACICLOVIR '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:47:29'
+    updated_at: '2011-06-22 14:47:29'
+    deleted_at: null
+  articulo_228:
+    descripcion: 'ACICLOVIR 250 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:47:48'
+    updated_at: '2011-06-22 14:47:48'
+    deleted_at: null
+  articulo_229:
+    descripcion: 'TRAMALOL '
+    categoria: categoria_1
+    marca: marca_4
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:48:06'
+    updated_at: '2011-06-22 14:48:06'
+    deleted_at: null
+  articulo_230:
+    descripcion: METROTEXATE
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 14:58:10'
+    updated_at: '2011-06-22 14:58:10'
+    deleted_at: null
+  articulo_231:
+    descripcion: 'HIDROCORTISONA 100 MG'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:01:56'
+    updated_at: '2011-06-22 15:01:56'
+    deleted_at: null
+  articulo_232:
+    descripcion: 'HIDROCORTISONA 500 MG'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:02:19'
+    updated_at: '2011-06-22 15:02:19'
+    deleted_at: null
+  articulo_233:
+    descripcion: 'KENACORT INTRA ARTICULAR'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:03:01'
+    updated_at: '2011-06-22 15:03:01'
+    deleted_at: null
+  articulo_234:
+    descripcion: 'PREDNISONA 5 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:06:09'
+    updated_at: '2011-06-22 15:06:09'
+    deleted_at: null
+  articulo_235:
+    descripcion: 'PREDNISONA 50 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:06:31'
+    updated_at: '2011-06-22 15:06:31'
+    deleted_at: null
+  articulo_236:
+    descripcion: COLAYTE
+    categoria: categoria_1
+    marca: marca_6
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:06:52'
+    updated_at: '2011-06-22 15:06:52'
+    deleted_at: null
+  articulo_237:
+    descripcion: 'CITRATO DE CALCIO 1500 MG + VIT. D '
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:07:41'
+    updated_at: '2011-06-22 15:07:41'
+    deleted_at: null
+  articulo_238:
+    descripcion: 'ALENDRONATO SODICO 70 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:08:28'
+    updated_at: '2011-06-22 15:08:28'
+    deleted_at: null
+  articulo_239:
+    descripcion: 'TOXOIDE TETANICO'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:09:11'
+    updated_at: '2011-06-22 15:09:11'
+    deleted_at: null
+  articulo_240:
+    descripcion: 'ACIDO FOLICO 5 MG '
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:09:36'
+    updated_at: '2011-06-22 15:09:36'
+    deleted_at: null
+  articulo_241:
+    descripcion: 'POLIMALTOSATO FERRICO'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:10:10'
+    updated_at: '2011-06-22 15:10:10'
+    deleted_at: null
+  articulo_242:
+    descripcion: 'VENOFER IV '
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:10:50'
+    updated_at: '2011-06-22 15:10:50'
+    deleted_at: null
+  articulo_243:
+    descripcion: 'ACISO ASCORBICO 500 MG'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:16:22'
+    updated_at: '2011-06-22 15:16:22'
+    deleted_at: null
+  articulo_244:
+    descripcion: 'VITAMINA E 400 MG'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:16:51'
+    updated_at: '2011-06-22 15:16:51'
+    deleted_at: null
+  articulo_245:
+    descripcion: 'VITAMINAS + MINERALES '
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:17:12'
+    updated_at: '2011-06-22 15:17:12'
+    deleted_at: null
+  articulo_246:
+    descripcion: 'VITAMINAS K'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:18:10'
+    updated_at: '2011-06-22 15:18:10'
+    deleted_at: null
+  articulo_247:
+    descripcion: 'COMPLEJO B CON LIDOCAINA'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:22:32'
+    updated_at: '2011-06-22 15:22:32'
+    deleted_at: null
+  articulo_248:
+    descripcion: 'COMPLEJO B '
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:22:52'
+    updated_at: '2011-06-22 15:22:52'
+    deleted_at: null
+  articulo_249:
+    descripcion: 'COMPLEJO VITAMINICO '
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:23:26'
+    updated_at: '2011-06-22 15:23:26'
+    deleted_at: null
+  articulo_250:
+    descripcion: 'COMPLEJO VITAMINICO'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:24:29'
+    updated_at: '2011-06-22 15:24:29'
+    deleted_at: null
+  articulo_251:
+    descripcion: 'VITAMINA C'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:24:49'
+    updated_at: '2011-06-22 15:24:49'
+    deleted_at: null
+  articulo_252:
+    descripcion: 'VITAMINA B12'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:25:09'
+    updated_at: '2011-06-22 15:25:09'
+    deleted_at: null
+  articulo_253:
+    descripcion: 'VITAMINA A 25.000 UI'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:25:32'
+    updated_at: '2011-06-22 15:25:32'
+    deleted_at: null
+  articulo_254:
+    descripcion: 'ACIDO FOLICO'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:26:05'
+    updated_at: '2011-06-22 15:26:05'
+    deleted_at: null
+  articulo_255:
+    descripcion: 'CLORHIDRATO DE FLAVOXATO 200 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:27:09'
+    updated_at: '2011-06-22 15:27:09'
+    deleted_at: null
+  articulo_256:
+    descripcion: 'TAMSULOSINA 0.4 MG'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:27:45'
+    updated_at: '2011-06-22 15:27:45'
+    deleted_at: null
+  articulo_257:
+    descripcion: 'CLORURO DE TOSPRIUM 20 MG '
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:28:14'
+    updated_at: '2011-06-22 15:28:14'
+    deleted_at: null
+  articulo_258:
+    descripcion: 'GLIMEPIRIDA 2 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:28:39'
+    updated_at: '2011-06-22 15:28:39'
+    deleted_at: null
+  articulo_259:
+    descripcion: 'GLIMEPIRIDA 4 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:28:59'
+    updated_at: '2011-06-22 15:28:59'
+    deleted_at: null
+  articulo_260:
+    descripcion: 'GLICAZIDA 80 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:29:31'
+    updated_at: '2011-06-22 15:29:31'
+    deleted_at: null
+  articulo_261:
+    descripcion: 'METFORMINA 500 MG '
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:30:47'
+    updated_at: '2011-06-22 15:30:47'
+    deleted_at: null
+  articulo_262:
+    descripcion: 'INSULINA NPH'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:31:11'
+    updated_at: '2011-06-22 15:31:11'
+    deleted_at: null
+  articulo_263:
+    descripcion: 'INSULINA CRISTALINA'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:31:36'
+    updated_at: '2011-06-22 15:31:36'
+    deleted_at: null
+  articulo_264:
+    descripcion: 'INSULINA 30/70'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:32:07'
+    updated_at: '2011-06-22 15:32:07'
+    deleted_at: null
+  articulo_265:
+    descripcion: 'METFORMINA 850 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:34:07'
+    updated_at: '2011-06-22 15:34:07'
+    deleted_at: null
+  articulo_266:
+    descripcion: 'GEMFIBROZIL  600 MG '
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:35:04'
+    updated_at: '2011-06-22 15:35:04'
+    deleted_at: null
+  articulo_267:
+    descripcion: 'PRAVASTATINA 20 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:35:55'
+    updated_at: '2011-06-22 15:35:55'
+    deleted_at: null
+  articulo_268:
+    descripcion: 'ATORVASTATINA 20 MG '
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:36:14'
+    updated_at: '2011-06-22 15:36:14'
+    deleted_at: null
+  articulo_269:
+    descripcion: 'SIMVASTATINA 40 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:36:37'
+    updated_at: '2011-06-22 15:36:37'
+    deleted_at: null
+  articulo_270:
+    descripcion: 'SIMVASTATINA 80'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:37:08'
+    updated_at: '2011-06-22 15:37:08'
+    deleted_at: null
+  articulo_271:
+    descripcion: 'LEVOTIROXINA 0.1 MG'
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:37:31'
+    updated_at: '2011-06-22 15:37:31'
+    deleted_at: null
+  articulo_272:
+    descripcion: 'DEFLAZACORT 6 MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:37:54'
+    updated_at: '2011-06-22 15:37:54'
+    deleted_at: null
+  articulo_273:
+    descripcion: 'EZETIMIBA-SIMVASTATINA 10 MG/40MG'
+    categoria: categoria_1
+    marca: marca_7
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:38:30'
+    updated_at: '2011-06-22 15:38:30'
+    deleted_at: null
+  articulo_274:
+    descripcion: 'TIOCOLCHICOSIDO 4 MG '
+    categoria: categoria_1
+    marca: marca_2
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:39:18'
+    updated_at: '2011-06-22 15:39:18'
+    deleted_at: null
+  articulo_275:
+    descripcion: 'TIOCOLCHICOSIDO '
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:39:49'
+    updated_at: '2011-06-22 15:39:49'
+    deleted_at: null
+  articulo_276:
+    descripcion: 'MILAX POLVO 360 G'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:40:12'
+    updated_at: '2011-06-22 15:40:12'
+    deleted_at: null
+  articulo_277:
+    descripcion: 'LACTULONA '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:40:38'
+    updated_at: '2011-06-22 15:40:38'
+    deleted_at: null
+  articulo_278:
+    descripcion: CLONIDINA
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:40:56'
+    updated_at: '2011-06-22 15:40:56'
+    deleted_at: null
+  articulo_279:
+    descripcion: 'HALURONATO SODICO 20 MG8 2 ML'
+    categoria: categoria_1
+    marca: marca_3
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:41:25'
+    updated_at: '2011-06-22 15:41:25'
+    deleted_at: null
+  articulo_280:
+    descripcion: 'ACEITE DE PESCADO 1.000 MG'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:41:52'
+    updated_at: '2011-06-22 15:41:52'
+    deleted_at: null
+  articulo_281:
+    descripcion: 'IODOPOLIVINIL PIRROLIDONA '
+    categoria: categoria_1
+    marca: marca_5
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:42:20'
+    updated_at: '2011-06-22 15:42:20'
+    deleted_at: null
+  articulo_282:
+    descripcion: 'DIPROPIONATO DE BETAETASONA 6.43 MG'
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:43:14'
+    updated_at: '2011-06-22 15:43:14'
+    deleted_at: null
+  articulo_283:
+    descripcion: 'DERMAGRAN '
+    categoria: categoria_1
+    marca: marca_1
+    fecha_vencimiento: null
+    created_at: '2011-06-22 15:43:29'
+    updated_at: '2011-06-22 15:43:29'
+    deleted_at: null
+Profile:
+  Profile_1:
+    User: sfGuardUser_1
+    cedula: '12501993'
+    nombres: Alexis
+    apellidos: Limongi
+    email: alexis.limongi@inass.gob.ve
+    departamento: departamento_1
+  Profile_2:
+    User: sfGuardUser_2
+    cedula: '12345678'
+    nombres: Director
+    apellidos: Centro
+    email: director@inass.gob.ve
+    departamento: departamento_2
+  Profile_3:
+    User: sfGuardUser_3
+    cedula: '87654321'
+    nombres: Analista
+    apellidos: Centros
+    email: analistac@inass.gob.ve
+    departamento: departamento_2
+  Profile_4:
+    User: sfGuardUser_4
+    cedula: '09876543'
+    nombres: Director
+    apellidos: Barinas
+    email: directorb@inass.gob.ve
+    departamento: departamento_3
+  Profile_5:
+    User: sfGuardUser_5
+    cedula: '90651238'
+    nombres: Analista
+    apellidos: Barinas
+    email: analistab@inass.gob.ve
+    departamento: departamento_3
+  Profile_6:
+    User: sfGuardUser_6
+    cedula: '12345679'
+    nombres: Gerente
+    apellidos: Sede
+    email: gerente@inass.gob.ve
+    departamento: departamento_1
+  Profile_7:
+    User: sfGuardUser_7
+    cedula: '12567890'
+    nombres: Analista
+    apellidos: Sede
+    email: analistas@inass.gob.ve
+    departamento: departamento_1
+sfGuardPermission:
+  sfGuardPermission_1:
+    name: admin
+    description: 'super usuario del sistema'
+    created_at: '2011-03-23 14:38:14'
+    updated_at: '2011-03-23 14:38:14'
+  sfGuardPermission_2:
+    name: user
+    description: 'Usuarios Basico Sede Central'
+    created_at: '2011-03-23 14:40:49'
+    updated_at: '2011-03-23 14:40:49'
+  sfGuardPermission_3:
+    name: userc
+    description: 'Usuario Basico del CSSR'
+    created_at: '2011-03-23 14:41:09'
+    updated_at: '2011-03-23 14:41:09'
+  sfGuardPermission_4:
+    name: director
+    description: 'Directores de Centros'
+    created_at: '2011-03-23 14:44:45'
+    updated_at: '2011-03-23 14:45:20'
+  sfGuardPermission_5:
+    name: gerente
+    description: 'Gerente de Sede Central'
+    created_at: '2011-03-23 14:45:13'
+    updated_at: '2011-03-23 14:45:13'
+sfGuardUserPermission:
+  sfGuardUserPermission_1_1:
+    sfGuardUser: sfGuardUser_1
+    sfGuardPermission: sfGuardPermission_1
+    created_at: '2011-03-23 14:38:22'
+    updated_at: '2011-03-23 14:38:22'
+  sfGuardUserPermission_2_4:
+    sfGuardUser: sfGuardUser_2
+    sfGuardPermission: sfGuardPermission_4
+    created_at: '2011-03-23 14:45:55'
+    updated_at: '2011-03-23 14:45:55'
+  sfGuardUserPermission_3_3:
+    sfGuardUser: sfGuardUser_3
+    sfGuardPermission: sfGuardPermission_3
+    created_at: '2011-03-23 14:51:09'
+    updated_at: '2011-03-23 14:51:09'
+  sfGuardUserPermission_4_4:
+    sfGuardUser: sfGuardUser_4
+    sfGuardPermission: sfGuardPermission_4
+    created_at: '2011-03-23 16:22:20'
+    updated_at: '2011-03-23 16:22:20'
+  sfGuardUserPermission_5_3:
+    sfGuardUser: sfGuardUser_5
+    sfGuardPermission: sfGuardPermission_3
+    created_at: '2011-03-23 16:23:19'
+    updated_at: '2011-03-23 16:23:19'
+  sfGuardUserPermission_6_5:
+    sfGuardUser: sfGuardUser_6
+    sfGuardPermission: sfGuardPermission_5
+    created_at: '2011-03-23 16:24:08'
+    updated_at: '2011-03-23 16:24:08'
+  sfGuardUserPermission_7_2:
+    sfGuardUser: sfGuardUser_7
+    sfGuardPermission: sfGuardPermission_2
+    created_at: '2011-03-23 16:25:04'
+    updated_at: '2011-03-23 16:25:04'
+sfGuardUser:
+  sfGuardUser_1:
+    username: alimongi
+    algorithm: sha1
+    salt: 4b2e2a8c6fb4874028e07a9878ef2c29
+    password: 123456
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-06-30 18:40:06'
+    created_at: '2011-03-23 14:37:28'
+    updated_at: '2011-06-30 18:40:06'
+  sfGuardUser_2:
+    username: directorcaricuao
+    algorithm: sha1
+    salt: 7afd762ba097153e41797a89e36306b3
+    password: 123456
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-06-15 12:07:17'
+    created_at: '2011-03-23 14:44:18'
+    updated_at: '2011-06-15 12:07:17'
+  sfGuardUser_3:
+    username: analistacaricuao
+    algorithm: sha1
+    salt: 54592339dd6aaf7f0d237708875834a7
+    password: 123456
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-06-15 12:06:36'
+    created_at: '2011-03-23 14:51:09'
+    updated_at: '2011-06-15 12:06:36'
+  sfGuardUser_4:
+    username: directorbarinas
+    algorithm: sha1
+    salt: 4a9cd65966fe6baf5e59d08653987095
+    password: 123456
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-03-28 16:40:06'
+    created_at: '2011-03-23 16:22:20'
+    updated_at: '2011-03-29 18:52:14'
+  sfGuardUser_5:
+    username: analistabarinas
+    algorithm: sha1
+    salt: 8fe5ab4c3312b30a16e2861c0692c176
+    password: 123456
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-03-29 17:11:02'
+    created_at: '2011-03-23 16:23:19'
+    updated_at: '2011-03-29 18:52:27'
+  sfGuardUser_6:
+    username: gerente
+    algorithm: sha1
+    salt: cc35b987c763ce217c145bc36e1a0b54
+    password: 123456
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-06-28 17:37:27'
+    created_at: '2011-03-23 16:24:08'
+    updated_at: '2011-06-28 17:37:27'
+  sfGuardUser_7:
+    username: analistasede
+    algorithm: sha1
+    salt: 2168d0bc407db44b45663fa36d7e20f6
+    password: 123456
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-05-20 14:41:35'
+    created_at: '2011-03-23 16:25:04'
+    updated_at: '2011-05-20 14:41:35'
+sfGuardGroup:
+  sfGuardGroup_1:
+    name: Administrador
+    description: 'Administrador del sistema'
+    created_at: '2011-03-23 14:37:57'
+    updated_at: '2011-03-23 14:37:57'
+  sfGuardGroup_2:
+    name: SedeAlterna
+    description: 'Trabajadores de la Sede Alterna'
+    created_at: '2011-03-23 14:42:22'
+    updated_at: '2011-03-23 14:42:53'
+  sfGuardGroup_3:
+    name: Centros
+    description: 'Usuarios de los CSSR'
+    created_at: '2011-03-23 14:43:12'
+    updated_at: '2011-03-23 14:43:12'
+sfGuardUserGroup:
+  sfGuardUserGroup_1_1:
+    sfGuardUser: sfGuardUser_1
+    sfGuardGroup: sfGuardGroup_1
+    created_at: '2011-03-23 14:38:22'
+    updated_at: '2011-03-23 14:38:22'
+  sfGuardUserGroup_2_3:
+    sfGuardUser: sfGuardUser_2
+    sfGuardGroup: sfGuardGroup_3
+    created_at: '2011-03-23 14:44:19'
+    updated_at: '2011-03-23 14:44:19'
+  sfGuardUserGroup_3_3:
+    sfGuardUser: sfGuardUser_3
+    sfGuardGroup: sfGuardGroup_3
+    created_at: '2011-03-23 14:51:09'
+    updated_at: '2011-03-23 14:51:09'
+  sfGuardUserGroup_4_3:
+    sfGuardUser: sfGuardUser_4
+    sfGuardGroup: sfGuardGroup_3
+    created_at: '2011-03-23 16:22:20'
+    updated_at: '2011-03-23 16:22:20'
+  sfGuardUserGroup_5_3:
+    sfGuardUser: sfGuardUser_5
+    sfGuardGroup: sfGuardGroup_3
+    created_at: '2011-03-23 16:23:19'
+    updated_at: '2011-03-23 16:23:19'
+  sfGuardUserGroup_6_2:
+    sfGuardUser: sfGuardUser_6
+    sfGuardGroup: sfGuardGroup_2
+    created_at: '2011-03-23 16:24:08'
+    updated_at: '2011-03-23 16:24:08'
+  sfGuardUserGroup_7_2:
+    sfGuardUser: sfGuardUser_7
+    sfGuardGroup: sfGuardGroup_2
+    created_at: '2011-03-23 16:25:04'
+    updated_at: '2011-03-23 16:25:04'
+departamento:
+  departamento_1:
+    descripcion: SedeAlterna
+    activo: true
+    created_at: '2011-03-23 14:39:18'
+    updated_at: '2011-03-23 14:39:18'
+    deleted_at: null
+  departamento_2:
+    descripcion: CSSRCaricuao
+    activo: true
+    created_at: '2011-03-23 14:39:59'
+    updated_at: '2011-03-23 14:39:59'
+    deleted_at: null
+  departamento_3:
+    descripcion: CSSRBarinas
+    activo: true
+    created_at: '2011-03-23 16:20:53'
+    updated_at: '2011-03-23 16:20:53'
+    deleted_at: null
+marca:
+  marca_1:
+    descripcion: Cápsulas
+    activo: true
+    created_at: '2010-04-07 11:09:14'
+    updated_at: '2011-03-14 14:27:03'
+    deleted_at: null
+  marca_2:
+    descripcion: Tabletas
+    activo: true
+    created_at: '2010-04-07 11:09:26'
+    updated_at: '2011-03-14 14:27:29'
+    deleted_at: null
+  marca_3:
+    descripcion: Ampollas
+    activo: true
+    created_at: '2010-04-11 14:35:21'
+    updated_at: '2011-03-14 14:27:56'
+    deleted_at: null
+  marca_4:
+    descripcion: Gotas
+    activo: true
+    created_at: '2010-04-11 14:35:21'
+    updated_at: '2011-03-14 14:27:56'
+    deleted_at: null
+  marca_5:
+    descripcion: Soluccion
+    activo: true
+    created_at: '2010-04-11 14:35:21'
+    updated_at: '2011-03-14 14:27:56'
+    deleted_at: null
+  marca_6:
+    descripcion: Sobres
+    activo: true
+    created_at: '2010-04-11 14:35:21'
+    updated_at: '2011-03-14 14:27:56'
+    deleted_at: null
+  marca_7:
+    descripcion: Comprimidos
+    activo: true
+    created_at: '2010-04-11 14:35:21'
+    updated_at: '2011-03-14 14:27:56'
+    deleted_at: null
+  marca_8:
+    descripcion: Infusion
+    activo: true
+    created_at: '2011-06-22 15:44:21'
+    updated_at: '2011-06-22 15:44:21'
+    deleted_at: null
+  marca_9:
+    descripcion: Loción
+    activo: true
+    created_at: '2011-06-28 09:12:59'
+    updated_at: '2011-06-28 12:31:11'
+    deleted_at: null
+  marca_10:
+    descripcion: Shampoo
+    activo: true
+    created_at: '2011-06-28 09:14:43'
+    updated_at: '2011-06-28 12:31:16'
+    deleted_at: null
+  marca_11:
+    descripcion: 'Ovulo Vaginal'
+    activo: true
+    created_at: '2011-06-28 09:15:43'
+    updated_at: '2011-06-28 12:31:20'
+    deleted_at: null
+  marca_12:
+    descripcion: Crema
+    activo: true
+    created_at: '2011-06-28 09:16:42'
+    updated_at: '2011-06-28 12:31:24'
+    deleted_at: null
+  marca_13:
+    descripcion: Gel
+    activo: true
+    created_at: '2011-06-28 09:17:20'
+    updated_at: '2011-06-28 12:31:28'
+    deleted_at: null
+  marca_14:
+    descripcion: Liquido
+    activo: true
+    created_at: '2011-06-28 09:19:11'
+    updated_at: '2011-06-28 12:31:33'
+    deleted_at: null
+  marca_15:
+    descripcion: Granulado
+    activo: true
+    created_at: '2011-06-28 09:23:01'
+    updated_at: '2011-06-28 12:31:37'
+    deleted_at: null
+  marca_16:
+    descripcion: Jarabe
+    activo: true
+    created_at: '2011-06-28 09:46:24'
+    updated_at: '2011-06-28 12:31:41'
+    deleted_at: null
+  marca_17:
+    descripcion: Suspensión
+    activo: true
+    created_at: '2011-06-28 10:34:07'
+    updated_at: '2011-06-28 12:31:45'
+    deleted_at: null
+  marca_18:
+    descripcion: Supositorio
+    activo: true
+    created_at: '2011-06-28 10:34:49'
+    updated_at: '2011-06-28 12:31:49'
+    deleted_at: null
+  marca_19:
+    descripcion: Aerosol
+    activo: true
+    created_at: '2011-06-28 10:35:30'
+    updated_at: '2011-06-28 12:31:54'
+    deleted_at: null
+  marca_20:
+    descripcion: Unguento
+    activo: true
+    created_at: '2011-06-28 10:36:17'
+    updated_at: '2011-06-28 12:31:58'
+    deleted_at: null
+  marca_21:
+    descripcion: 'Enjuague Bucal'
+    activo: true
+    created_at: '2011-06-28 10:37:07'
+    updated_at: '2011-06-28 12:32:02'
+    deleted_at: null
+  marca_22:
+    descripcion: Jabon
+    activo: true
+    created_at: '2011-06-28 10:37:48'
+    updated_at: '2011-06-28 12:32:08'
+    deleted_at: null
+categoria:
+  categoria_1:
+    descripcion: Antibióticos
+    activo: true
+    created_at: '2010-03-14 23:44:27'
+    updated_at: '2011-03-14 15:16:28'
+    deleted_at: null
+  categoria_2:
+    descripcion: ORL
+    activo: true
+    created_at: '2010-03-27 15:11:16'
+    updated_at: '2011-06-28 11:20:01'
+    deleted_at: null
+  categoria_3:
+    descripcion: Hidratación
+    activo: true
+    created_at: '2010-03-27 15:11:57'
+    updated_at: '2010-03-27 15:11:57'
+    deleted_at: null
+  categoria_4:
+    descripcion: Hipogliceminantes
+    activo: true
+    created_at: '2010-03-27 15:12:12'
+    updated_at: '2010-03-27 15:12:12'
+    deleted_at: null
+  categoria_5:
+    descripcion: Antimicotico
+    activo: true
+    created_at: '2011-06-28 10:41:22'
+    updated_at: '2011-06-28 12:28:04'
+    deleted_at: null
+  categoria_6:
+    descripcion: Antiparasitarios
+    activo: true
+    created_at: '2011-06-28 10:41:50'
+    updated_at: '2011-06-28 12:28:13'
+    deleted_at: null
+  categoria_7:
+    descripcion: Antibacterianos
+    activo: true
+    created_at: '2011-06-28 10:42:33'
+    updated_at: '2011-06-28 12:30:53'
+    deleted_at: null
+  categoria_8:
+    descripcion: Antiprotozoarios
+    activo: true
+    created_at: '2011-06-28 10:43:15'
+    updated_at: '2011-06-28 12:30:49'
+    deleted_at: null
+  categoria_9:
+    descripcion: AINES
+    activo: true
+    created_at: '2011-06-28 10:46:46'
+    updated_at: '2011-06-28 12:30:44'
+    deleted_at: null
+  categoria_10:
+    descripcion: Uricolíticos
+    activo: true
+    created_at: '2011-06-28 10:49:30'
+    updated_at: '2011-06-28 12:30:39'
+    deleted_at: null
+  categoria_11:
+    descripcion: Antigotosos
+    activo: true
+    created_at: '2011-06-28 10:51:22'
+    updated_at: '2011-06-28 12:30:34'
+    deleted_at: null
+  categoria_12:
+    descripcion: Queratolítico
+    activo: true
+    created_at: '2011-06-28 10:52:26'
+    updated_at: '2011-06-28 12:30:29'
+    deleted_at: null
+  categoria_13:
+    descripcion: Laxantes
+    activo: true
+    created_at: '2011-06-28 10:53:06'
+    updated_at: '2011-06-28 12:30:25'
+    deleted_at: null
+  categoria_14:
+    descripcion: 'Protector Gastrico'
+    activo: true
+    created_at: '2011-06-28 10:54:15'
+    updated_at: '2011-06-28 12:30:20'
+    deleted_at: null
+  categoria_15:
+    descripcion: Antidispepticos
+    activo: true
+    created_at: '2011-06-28 10:55:25'
+    updated_at: '2011-06-28 12:30:14'
+    deleted_at: null
+  categoria_16:
+    descripcion: Antidiarreicos
+    activo: true
+    created_at: '2011-06-28 10:58:14'
+    updated_at: '2011-06-28 12:30:09'
+    deleted_at: null
+  categoria_17:
+    descripcion: 'Antisepticos intestinales'
+    activo: true
+    created_at: '2011-06-28 10:59:01'
+    updated_at: '2011-06-28 12:30:04'
+    deleted_at: null
+  categoria_18:
+    descripcion: Antiespasmódicos
+    activo: true
+    created_at: '2011-06-28 10:59:50'
+    updated_at: '2011-06-28 12:29:57'
+    deleted_at: null
+  categoria_19:
+    descripcion: Psicotropicos
+    activo: true
+    created_at: '2011-06-28 11:00:47'
+    updated_at: '2011-06-28 12:29:52'
+    deleted_at: null
+  categoria_20:
+    descripcion: Cardiovasculares
+    activo: true
+    created_at: '2011-06-28 11:02:54'
+    updated_at: '2011-06-28 12:29:45'
+    deleted_at: null
+  categoria_21:
+    descripcion: Antiarritmicos
+    activo: true
+    created_at: '2011-06-28 11:10:56'
+    updated_at: '2011-06-28 12:29:29'
+    deleted_at: null
+  categoria_22:
+    descripcion: Antitrombóticos
+    activo: true
+    created_at: '2011-06-28 11:12:12'
+    updated_at: '2011-06-28 12:29:23'
+    deleted_at: null
+  categoria_23:
+    descripcion: Anticoagulantes
+    activo: true
+    created_at: '2011-06-28 11:13:23'
+    updated_at: '2011-06-28 12:29:18'
+    deleted_at: null
+  categoria_24:
+    descripcion: Antivaricosos
+    activo: true
+    created_at: '2011-06-28 11:14:57'
+    updated_at: '2011-06-28 12:29:12'
+    deleted_at: null
+  categoria_25:
+    descripcion: Diureticos
+    activo: true
+    created_at: '2011-06-28 11:15:51'
+    updated_at: '2011-06-28 12:29:07'
+    deleted_at: null
+  categoria_26:
+    descripcion: Antialergicos
+    activo: true
+    created_at: '2011-06-28 11:16:29'
+    updated_at: '2011-06-28 12:29:00'
+    deleted_at: null
+  categoria_27:
+    descripcion: Expectorantes
+    activo: true
+    created_at: '2011-06-28 11:17:20'
+    updated_at: '2011-06-28 12:28:55'
+    deleted_at: null
+  categoria_28:
+    descripcion: Antiasmatico
+    activo: true
+    created_at: '2011-06-28 11:18:53'
+    updated_at: '2011-06-28 12:28:48'
+    deleted_at: null
+  categoria_29:
+    descripcion: Esteroides
+    activo: true
+    created_at: '2011-06-28 11:20:46'
+    updated_at: '2011-06-28 12:28:42'
+    deleted_at: null
+  categoria_30:
+    descripcion: 'Productos para la piel'
+    activo: true
+    created_at: '2011-06-28 11:21:36'
+    updated_at: '2011-06-28 12:28:34'
+    deleted_at: null
+  categoria_31:
+    descripcion: Antivirales
+    activo: true
+    created_at: '2011-06-28 11:22:29'
+    updated_at: '2011-06-28 12:28:29'
+    deleted_at: null
+  categoria_32:
+    descripcion: Antiherpetico
+    activo: true
+    created_at: '2011-06-28 11:24:57'
+    updated_at: '2011-06-28 12:28:21'
+    deleted_at: null
+  categoria_33:
+    descripcion: Cicatrizante
+    activo: false
+    created_at: '2011-06-28 17:48:12'
+    updated_at: '2011-06-28 17:48:12'
+    deleted_at: null
+  categoria_34:
+    descripcion: 'Preparados de Calcio'
+    activo: false
+    created_at: '2011-06-28 18:02:10'
+    updated_at: '2011-06-28 18:02:10'
+    deleted_at: null
+  categoria_35:
+    descripcion: Vitaminas
+    activo: false
+    created_at: '2011-06-28 18:02:45'
+    updated_at: '2011-06-28 18:02:45'
+    deleted_at: null
+  categoria_36:
+    descripcion: 'Antiespasmodico Vesical'
+    activo: false
+    created_at: '2011-06-28 18:04:50'
+    updated_at: '2011-06-28 18:04:50'
+    deleted_at: null
+  categoria_37:
+    descripcion: 'Hiperplasia Prostatica'
+    activo: false
+    created_at: '2011-06-28 18:06:28'
+    updated_at: '2011-06-28 18:06:28'
+    deleted_at: null
+  categoria_38:
+    descripcion: Insulina
+    activo: false
+    created_at: '2011-06-28 18:07:22'
+    updated_at: '2011-06-28 18:07:22'
+    deleted_at: null
+  categoria_39:
+    descripcion: Dislipidemiantes
+    activo: false
+    created_at: '2011-06-28 18:08:03'
+    updated_at: '2011-06-28 18:08:03'
+    deleted_at: null
+  categoria_40:
+    descripcion: 'Relajante musculoesqueletico'
+    activo: false
+    created_at: '2011-06-28 18:09:11'
+    updated_at: '2011-06-28 18:09:11'
+    deleted_at: null
+  categoria_41:
+    descripcion: Escabicida
+    activo: false
+    created_at: '2011-06-28 18:09:51'
+    updated_at: '2011-06-28 18:13:34'
+    deleted_at: '2011-06-28 18:13:10'
+  categoria_42:
+    descripcion: Otros
+    activo: false
+    created_at: '2011-06-28 18:13:56'
+    updated_at: '2011-06-28 18:13:56'
+    deleted_at: null

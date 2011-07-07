@@ -12,9 +12,12 @@ class categoriasActions extends sfActions
 {
   public function executeIndex(sfWebRequest $request)
   {
-    $this->categorias = Doctrine::getTable('Categoria')
-      ->createQuery('a')
-      ->execute();
+    $page = $request->getParameter('pagina', 1);
+    $this->categorias = Doctrine::getTable('Categoria')->getListado($page, sfConfig::get('app_limite'));
+    $this->haveToPaginate = Doctrine::getTable('Categoria')->haveToPaginate();
+    $this->resultados = Doctrine::getTable('Categoria')->getTotalResult();
+    $this->paginas = Doctrine::getTable('Categoria')->getTotalPages();
+    $this->menu = Doctrine::getTable('Categoria')->getDisplay(array(), true);
   }
 
   public function executeNew(sfWebRequest $request)
